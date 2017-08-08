@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h2 {
+    text-align: center;
+}
+
+span {
+    color: green;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+}
+
+
+/*Menu navigation - Start*/
+
+#main-nav #main-menu ul li a {
+    color: #1ac085;
+}
+
+#main-nav #main-menu ul li a:hover {
+    color: #291f1a;
+}
+
+#main-nav button p {
+    margin: 0px;
+    color: #1ac085;
+}
+
+#main-nav button p:hover {
+    color: #291f1a;
+}
+
+
+/*Menu navigation - Stop*/
+
+header {
+    margin-top: 30px;
+}
+
+#main-header {
+    background-image: url(../img/tlo-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#main-header h1 {
+    transform: translateY(-50%);
+    top: 50%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+#about .col-1-2 img {
+    display: block;
+margin-left: auto;
+margin-right: auto;
