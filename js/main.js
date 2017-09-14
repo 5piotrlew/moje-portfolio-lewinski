@@ -54,10 +54,13 @@ $(function () {
     
     */
     
-    $(function chuj(){
+    $(function carousel(){
         slide(slideIndex + 1);
-        setTimeout(chuj, 5000);
+        setTimeout(carousel, 1000);
+        
     });
+    
+  
     
     
 
