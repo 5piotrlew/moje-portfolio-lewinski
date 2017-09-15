@@ -84,15 +84,19 @@ header {
 	overflow: hidden;
 	height: 600px;
 	position: relative;
+    margin: auto;
 	
 }
 
-.slide-show {
+#slider .slide-show {
 	position: absolute;
 	height: 100%;	
+    text-align: center;
+   
+    
 }
 
-.slide-show .single-slide {
+#slider .slide-show .single-slide {
 	position: absolute;
 	top: 0;
 	bottom: 0;
