@@ -118,25 +118,3 @@ header {
 	color: #fff;
 }
 
-#slider .slider-arrows a{
-	top:50%;
-	transform: translateY(-50%);
-	font-size: 3em;
-	color: #fff;
-}
-
-#slider .slider-arrows a:hover{
-	color: #333;
-}
-
-#slider .slider-arrows .prev-slide{
-	position: absolute;
-	left: 0;
-	z-index: 10;
-}
-
-#slider .slider-arrows .next-slide {
-	position: absolute;
-	right: 0;
-	z-index: 10;
-}
