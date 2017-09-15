@@ -21,25 +21,20 @@ $(function () {
     });
 
     function slide(newSlideIndex) {
-
         if (newSlideIndex < 0 || newSlideIndex >= slideCount) {
             return;
         }
-
         var marginLeft = (newSlideIndex * (-100)) + '%';
-
         slideShow.animate({
             'margin-left': marginLeft
-        }, 800, function () {
+        }, 1000, function () {
             slideIndex = newSlideIndex;
         });
     }
 
-
     //    szerokośc kontenera wynosząca ilość slajdów
 
     slideShow.css('width', slideCount * 100 + '%');
-
 
     //    szerokosc i położenie każdego slajdu (marginesy)
 
@@ -49,32 +44,16 @@ $(function () {
             'margin-left': index * slideWidth + '%'
         });
     });
-
-
-    //    uruchomienie funkcji po kliknięciu na strzałkę
-
-    /* $('.prev-slide').click(function(){
-         slide(slideIndex - 1);
-     });
-     
-     */
-
-
-    
     slideIndex = 0;
     carousel();
 
     function carousel() {
-       
-     
+
         slideIndex++;
         slide(slideIndex);
         if (slideIndex > slideCount) {
             slideIndex = 1;
         }
-        
-        setTimeout(carousel, 3000);
+        setTimeout(carousel, 5000);
     };
-
-
 });
