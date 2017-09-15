@@ -48,12 +48,12 @@ $(function () {
     carousel();
 
     function carousel() {
-
         slideIndex++;
         slide(slideIndex);
         if (slideIndex > slideCount) {
             slideIndex = 1;
         }
-        setTimeout(carousel, 5000);
     };
+    setInterval(carousel, 5000);
+
 });
