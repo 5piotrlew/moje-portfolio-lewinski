@@ -52,7 +52,7 @@ $(function () {
         slide(slideIndex);
         if (slideIndex > slideCount) {
             slideIndex = 1;
-        }
+        };
     };
     setInterval(carousel, 5000);
 
