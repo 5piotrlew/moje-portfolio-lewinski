@@ -35,20 +35,23 @@ section {
 }
 
 #main-nav #main-menu ul li a {
-    color: #1ac085;
+    color: #f0b43d;
+    transition: all 0.4s;
 }
 
 #main-nav #main-menu ul li a:hover {
-    color: #291f1a;
+    color: #a1700c;
+    font-weight: bold;
 }
 
 #main-nav button p {
     margin: 0px;
-    color: #1ac085;
+    color:#a1830c;
+    
 }
 
 #main-nav button p:hover {
-    color: #291f1a;
+    color: #a1700c;
 }
 
 
@@ -104,7 +107,7 @@ header {
 /* slider */
 #slider {
 	overflow: hidden;
-	height: 600px;
+	height: 700px;
 	position: relative;
     margin: auto;
     
