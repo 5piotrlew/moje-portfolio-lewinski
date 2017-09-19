@@ -28,6 +28,7 @@ section {
     height: 800px;
 }
 
+
 /*Menu navigation - Start*/
 
 #main-nav {
@@ -46,8 +47,7 @@ section {
 
 #main-nav button p {
     margin: 0px;
-    color:#a1830c;
-    
+    color: #a1830c;
 }
 
 #main-nav button p:hover {
@@ -95,57 +95,54 @@ header {
     background-color: #e0e0e0;
 }
 
-#about .col-1-2 img {
+#about .col-lg-6 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     border-radius: 1em;
-    
 }
 
+
 /* slider */
+
 #slider {
-	overflow: hidden;
-	height: 700px;
-	position: relative;
+    overflow: hidden;
+    height: 700px;
+    position: relative;
     margin: auto;
-    
     background-color: #e3e3e3;
-	
 }
 
 #slider .slide-show {
-	position: absolute;
-	height: 100%;	
+    position: absolute;
+    height: 100%;
     text-align: center;
-   
-    
 }
 
 #slider .slide-show .single-slide {
-	position: absolute;
-	top: 0;
-	bottom: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
 }
 
+
 #slider .slide-show .single-slide img {
-	border: none;
-	width: 100%;
-	max-width: 1300px;
+    border: none;
+    width: 100%;
+    max-width: 1300px;
 }
 
 #slider .slide-show .single-slide .slider-caption {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	z-index: 5;
-	text-align: center;
-	margin: 0 auto;
-	left: 0;
-	right: 0;
-	font-size: 5em;
-	text-transform: uppercase;
-	color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    font-size: 5em;
+    text-transform: uppercase;
+    color: #fff;
 }
-
