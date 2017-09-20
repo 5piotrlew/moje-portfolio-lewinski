@@ -1,4 +1,21 @@
 'use strict';
+
+/* efekt opacity z opoznieniem zmienic na scroll cos tam */
+
+document.body.className += " fade-out";
+function usun() {    
+    document.querySelector('body').classList.remove('fade-out');    
+}
+
+function hej() {
+    setTimeout(usun, 1);
+}
+window.onload = hej();
+
+
+/* koniec efektu */
+
+
 $(function () {
     /*zmienne*/
     var slideCount = $('.single-slide').length; //10
