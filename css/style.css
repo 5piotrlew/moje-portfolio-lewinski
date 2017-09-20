@@ -228,7 +228,7 @@ body.fade-out {
     
     /* */
    
-.obramowanie {
+.obramowanie:not(:last-child) {
     border-right: 2px solid #ab760b;
 }
 
