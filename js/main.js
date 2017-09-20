@@ -55,23 +55,21 @@ $(function () {
     };
     setInterval(carousel, 5000);
 
-    // Licznik
-    var lataDoswiadczenia = 2;
-    
- 
+    // licznik 
 
-    function licznik() {
-        
-        for (lataDoswiadczenia; lataDoswiadczenia < 40; lataDoswiadczenia++) {
-            setTimeout(function(){
-            $('.count-number').html(lataDoswiadczenia);
-                
-            }, 2000);
-            };       
-        
 
-    };
-    setTimeout(licznik, 1);
-    
+    $('.count-number').each(function () {
+        $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 900,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+
+    });
+
 
 });
