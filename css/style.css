@@ -124,67 +124,9 @@ header {
     position: absolute;
     top: 0;
     bottom: 0;
-}
-
-.skills-item-1 {
-    background-image: url(../img/blue-group_responsive_design.png);
-}
-
-.skills-item-2 {
-    background-image: url(../img/cmd.jpg);
-}
-
-
-.skills-item-3 {
-    background-image: url(../img/html-1.png);
-}
-
-.skills-item-4 {
-    background-image: url(../img/git.png);
-}
-
-.skills-item-5 {
-    background-image: url(../img/javascript-encode-.png);
-}
-
-
-
-.skills-item {    
     background-position: center;
-    background-size: cover;  
+    background-size: cover; 
 }
-
-.item-mask {
-    background-color: rgba(42, 61, 79, 0.8);
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all 0.3s ease-in-out;
-    position: absolute;
-    font-size: initial;
-}
-
-.item-mask:hover {
-    opacity: 1;
-}
-
-.item-content {
-    height: 85%;
-    border: 1px solid #fff;
-    margin: 30px;
-    position: relative;
-}
-
-.item-content-inner { 
-    color: #fff;
-    position: absolute;
-    top: 50%; /* pozycjonuje 50 procent od relatywnej item-content */
-    transform: translateY(-50%);
-    right: 0;
-    left: 0;
-    padding: 5px;
-}
-
 
 #slider .slide-show .single-slide .slider-caption {
     position: absolute;
@@ -199,3 +141,78 @@ header {
     text-transform: uppercase;
     color: #fff;
 }
+
+#skills #slider .slide-show .skills-item-1 {
+    background-image: url(../img/blue-group_responsive_design.png);
+}
+
+#skills #slider .slide-show .skills-item-2 {
+    background-image: url(../img/cmd.jpg);
+}
+
+
+#skills #slider .slide-show .skills-item-3 {
+    background-image: url(../img/html-1.png);
+}
+
+#skills #slider .slide-show .skills-item-4 {
+    background-image: url(../img/git.png);
+}
+
+#skills #slider .slide-show .skills-item-5 {
+    background-image: url(../img/javascript-encode-.png);
+}
+
+
+
+#skills #slider .slide-show .single-slide .item-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    font-size: initial;
+}
+
+#skills #slider .slide-show .single-slide .item-mask:hover {
+    opacity: 1;
+}
+
+#skills #slider .slide-show .single-slide .item-mask .item-content {
+    height: 85%;
+    border: 1px solid #fff;
+    margin: 30px;
+    position: relative;
+}
+
+#skills #slider .slide-show .single-slide .item-mask .item-content .item-content-inner { 
+    color: #fff;
+    position: absolute;
+    top: 50%; /* pozycjonuje 50 procent od relatywnej item-content */
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    padding: 5px;
+}
+
+/* licznik */
+
+.grey-light-gb {
+background-color: #eee;    
+}
+
+.p-80-cont {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.page-section {
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+
+

@@ -28,29 +28,50 @@ $(function () {
         });
     }
 
+
     //    szerokośc kontenera wynosząca ilość slajdów
 
-   /* slideShow.css('width', slideCount * 100 + '%');
+    /* slideShow.css('width', slideCount * 100 + '%');
 
-    //    szerokosc i położenie każdego slajdu (marginesy)
+     //    szerokosc i położenie każdego slajdu (marginesy)
 
-    $('.single-slide').each(function (index) {
-        $(this).css({
-            'width': slideWidth + '%',
-            'margin-left': index * slideWidth + '%'
-        });
-    }); */
-    
+     $('.single-slide').each(function (index) {
+         $(this).css({
+             'width': slideWidth + '%',
+             'margin-left': index * slideWidth + '%'
+         });
+     }); */
+
     carousel();
     slideIndex = 0;
+
     function carousel() {
-        
+
         slideIndex++;
         slide(slideIndex);
-        if (slideIndex > slideCount) {
+        if (slideIndex >= (slideCount - 1) || slideIndex < 0) {
             slideIndex = -1;
         };
     };
     setInterval(carousel, 5000);
+
+    // Licznik
+    var lataDoswiadczenia = 2;
+    
+ 
+
+    function licznik() {
+        
+        for (lataDoswiadczenia; lataDoswiadczenia < 40; lataDoswiadczenia++) {
+            setTimeout(function(){
+            $('.count-number').html(lataDoswiadczenia);
+                
+            }, 2000);
+            };       
+        
+
+    };
+    setTimeout(licznik, 1);
+    
 
 });
