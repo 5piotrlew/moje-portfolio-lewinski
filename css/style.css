@@ -126,12 +126,65 @@ header {
     bottom: 0;
 }
 
-
-#slider .slide-show .single-slide img {
-    border: none;
-    width: 100%;
-    max-width: 1300px;
+.skills-item-1 {
+    background-image: url(../img/blue-group_responsive_design.png);
 }
+
+.skills-item-2 {
+    background-image: url(../img/cmd.jpg);
+}
+
+
+.skills-item-3 {
+    background-image: url(../img/html-1.png);
+}
+
+.skills-item-4 {
+    background-image: url(../img/git.png);
+}
+
+.skills-item-5 {
+    background-image: url(../img/javascript-encode-.png);
+}
+
+
+
+.skills-item {    
+    background-position: center;
+    background-size: cover;  
+}
+
+.item-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    font-size: initial;
+}
+
+.item-mask:hover {
+    opacity: 1;
+}
+
+.item-content {
+    height: 85%;
+    border: 1px solid #fff;
+    margin: 30px;
+    position: relative;
+}
+
+.item-content-inner { 
+    color: #fff;
+    position: absolute;
+    top: 50%; /* pozycjonuje 50 procent od relatywnej item-content */
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    padding: 5px;
+}
+
 
 #slider .slide-show .single-slide .slider-caption {
     position: absolute;
