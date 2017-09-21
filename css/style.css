@@ -239,9 +239,9 @@ body.fade-out {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 48vw;
+    width: 47.9vw;
     border-radius: 1em;
-    height: 55vh;
+    height: 50vh;
     perspective: 800px;
 }
 
@@ -265,7 +265,8 @@ body.fade-out {
 
 .image-programmer::after {
 background: url('../img/IMG_9062.JPG');
-background-size: cover;
+background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
 background-color: (#e0e0e0;);
 }
@@ -285,3 +286,22 @@ background-color: (#e0e0e0;);
   transform: rotate(360deg);
 }
 
+
+header h1::after {
+    content: '';
+    position: absolute;
+    border: 2px solid transparent;    
+    height: 76px;
+    width: 0;
+    margin: auto;
+    left: 0;
+    right: 0;  
+    transition: 1s all;
+}
+
+header h1:hover::after {
+    width: 440px;
+    
+    border-top-color: #a1700c;
+    border-bottom-color: #ab760b;
+}
