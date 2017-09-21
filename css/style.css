@@ -1,9 +1,21 @@
+/* General styles - start */
+
 body {
     margin: 0;
     box-sizing: border-box;
     color: black;
     background-color: #e3e3e3;
+    opacity: 1;
+    transition: 2.5s opacity;
 }
+
+/* Start script opacity - class for fade animation onload */
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+/* opacity - stop */
 
 h1 {
     font-weight: 300;
@@ -17,17 +29,12 @@ span {
     color: darkgoldenrod;
 }
 
-.col-1-2 {
-    width: 50%;
-    float: left;
-}
-
 section {
     padding-top: 50px;
     padding-bottom: 50px;
     height: 800px;
 }
-
+/* General styles - Stop */
 
 /*Menu navigation - Start*/
 
@@ -58,9 +65,13 @@ section {
 
 /*Menu navigation - Stop*/
 
+/* Main-header - Start */
+
 header {
     margin-top: 50px;
 }
+
+/* Underline h1 - start */
 
 header h1::after {
     content: '';
@@ -79,6 +90,8 @@ header h1:hover::after {
     border-top-color: #a1700c;
     border-bottom-color: #ab760b;
 }
+
+/* underline h1 - stop */
 
 #main-header {
     background-image: url(../img/wallhaven-500970.jpg);
@@ -110,6 +123,10 @@ header h1:hover::after {
     font-weight: 300;
 }
 
+/* Main-header - Stop */
+
+/* Section about - Start */
+
 #about {
     background-color: #e0e0e0;
 }
@@ -136,7 +153,7 @@ header h1:hover::after {
 }
 
 .image-programmer .before {
-    font-size: 3em;
+    font-size: 1.5em;
     
 }
 
@@ -163,6 +180,19 @@ header h1:hover::after {
     transform: rotate(360deg);
 }
 
+.programmer-description {
+    font-size: 1.2em;
+    font-weight: 100;
+    line-height: 1.7em;
+}
+
+.programmer-description p {
+    margin-bottom: 1.4em;
+}
+
+/* Section about - Stop */
+
+/* Section skills - Start */
 
 /* slider */
 
@@ -254,8 +284,9 @@ header h1:hover::after {
     padding: 5px;
 }
 
+/* section skills - stop */
 
-/* licznik */
+/* section experience - start */
 
 .grey-light-gb {
     background-color: #eee;
@@ -273,25 +304,8 @@ header h1:hover::after {
     overflow: hidden;
 }
 
-
-/* opacity */
-
-body {
-    opacity: 1;
-    transition: 2.5s opacity;
-}
-
-body.fade-out {
-    opacity: 0;
-    transition: none;
-}
-
-
-/* */
-
 .obramowanie:not(:last-child) {
     border-right: 2px solid #ab760b;
 }
 
-
-/* test */
+/* section experience - stop */
