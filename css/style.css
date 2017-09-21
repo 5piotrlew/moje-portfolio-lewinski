@@ -43,7 +43,7 @@ section {
 
 #main-nav #main-menu ul li a:hover {
     border-bottom: 2px solid black;
-     padding-bottom: 3px;
+    padding-bottom: 3px;
 }
 
 #main-nav button p {
@@ -60,6 +60,24 @@ section {
 
 header {
     margin-top: 50px;
+}
+
+header h1::after {
+    content: '';
+    position: absolute;
+    border: 2px solid transparent;
+    height: 76px;
+    width: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    transition: 1s all;
+}
+
+header h1:hover::after {
+    width: 440px;
+    border-top-color: #a1700c;
+    border-bottom-color: #ab760b;
 }
 
 #main-header {
@@ -96,12 +114,53 @@ header {
     background-color: #e0e0e0;
 }
 
-#about .col-lg-6 img {
+.image-programmer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 47.9vw;
     border-radius: 1em;
+    height: 50vh;
+    perspective: 800px;
+}
+
+.image-programmer .before,
+.image-programmer .after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #e0e0e0;
+    box-sizing: border-box;
+    transition: 0.6s transform linear;
+    backface-visibility: hidden;
+}
+
+.image-programmer .before {
+    font-size: 3em;
+    
+}
+
+.image-programmer .after {
+    background: url('../img/IMG_9062.JPG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: (#e0e0e0;
+    );
+}
+
+.image-programmer:hover .after {
+    transform: rotateY(180deg);
+}
+
+.image-programmer .before {
+    background-size: cover;
+    transform: rotateY(180deg);
+    background-color: #e0e0e0;
+}
+
+.image-programmer:hover .before {
+    transform: rotate(360deg);
 }
 
 
@@ -126,7 +185,7 @@ header {
     top: 0;
     bottom: 0;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
 }
 
 #slider .slide-show .single-slide .slider-caption {
@@ -151,7 +210,6 @@ header {
     background-image: url(../img/cmd.jpg);
 }
 
-
 #skills #slider .slide-show .skills-item-3 {
     background-image: url(../img/html-1.png);
 }
@@ -163,8 +221,6 @@ header {
 #skills #slider .slide-show .skills-item-5 {
     background-image: url(../img/javascript-encode-.png);
 }
-
-
 
 #skills #slider .slide-show .single-slide .item-mask {
     background-color: rgba(42, 61, 79, 0.8);
@@ -187,20 +243,22 @@ header {
     position: relative;
 }
 
-#skills #slider .slide-show .single-slide .item-mask .item-content .item-content-inner { 
+#skills #slider .slide-show .single-slide .item-mask .item-content .item-content-inner {
     color: #fff;
     position: absolute;
-    top: 50%; /* pozycjonuje 50 procent od relatywnej item-content */
+    top: 50%;
+    /* pozycjonuje 50 procent od relatywnej item-content */
     transform: translateY(-50%);
     right: 0;
     left: 0;
     padding: 5px;
 }
 
+
 /* licznik */
 
 .grey-light-gb {
-background-color: #eee;    
+    background-color: #eee;
 }
 
 .p-80-cont {
@@ -213,8 +271,8 @@ background-color: #eee;
     display: block;
     position: relative;
     overflow: hidden;
-    
 }
+
 
 /* opacity */
 
@@ -225,83 +283,15 @@ body {
 
 body.fade-out {
     opacity: 0;
-    transition: none;} 
-    
-    /* */
-   
+    transition: none;
+}
+
+
+/* */
+
 .obramowanie:not(:last-child) {
     border-right: 2px solid #ab760b;
 }
 
+
 /* test */
-
-.image-programmer {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 47.9vw;
-    border-radius: 1em;
-    height: 50vh;
-    perspective: 800px;
-}
-
-.image-programmer::before,
-.image-programmer::after {
-  content: '';
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background: #e0e0e0;
-  border-radius: 6px;
-  box-sizing: border-box;
-  border: 3px solid #171212;
-  transition: 0.6s transform linear;
-  backface-visibility: hidden;
-}
-
-.image-programmer::before {
-  content: 'jak tu mozna koda html wjebac <html> </html> ';
-}
-
-.image-programmer::after {
-background: url('../img/IMG_9062.JPG');
-background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-background-color: (#e0e0e0;);
-}
-
-.image-programmer:hover::after {
-  transform: rotateY(180deg);
-}
-
-.image-programmer::before {
-  
-  background-size: cover;
-  transform: rotateY(180deg);
-  background-color: #e0e0e0;
-}
-
-.image-programmer:hover::before {
-  transform: rotate(360deg);
-}
-
-
-header h1::after {
-    content: '';
-    position: absolute;
-    border: 2px solid transparent;    
-    height: 76px;
-    width: 0;
-    margin: auto;
-    left: 0;
-    right: 0;  
-    transition: 1s all;
-}
-
-header h1:hover::after {
-    width: 440px;
-    
-    border-top-color: #a1700c;
-    border-bottom-color: #ab760b;
-}
