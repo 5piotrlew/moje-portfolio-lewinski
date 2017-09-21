@@ -36,13 +36,14 @@ section {
 }
 
 #main-nav #main-menu ul li a {
-    color: #f0b43d;
+    color: #a1700c;
+    font-weight: bold;
     transition: all 0.4s;
 }
 
 #main-nav #main-menu ul li a:hover {
-    color: #a1700c;
-    font-weight: bold;
+    border-bottom: 2px solid black;
+     padding-bottom: 3px;
 }
 
 #main-nav button p {
