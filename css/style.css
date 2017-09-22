@@ -185,30 +185,31 @@ header h1:hover::after {
     padding-right: 20px;
     line-height: 40px;
     color: white;
-    transition: width 2s;
+    transition-duration: 2s;
+    transition-property: background-color, width;
 }
 
 .image-programmer .before .html {
     width: 0%;
-    background-color: #4CAF50;
+    background-color: #ddd;
     
 }
 
 .image-programmer .before .css {
     width: 0%;
-    background-color: #2196F3;
+    background-color: #ddd;
     
 }
 
 .image-programmer .before .js {
-    width: 5%;
-    background-color: #f44336;
+    width: 0%;
+    background-color: #ddd;
     
 }
 
 .image-programmer .before .php {
     width: 0%;
-    background-color: #808080;
+    background-color: #ddd;
     
 }
 

@@ -56,7 +56,7 @@ $(function () {
     };
     setInterval(carousel, 5000);
 
-    // counter
+    // counter section experience
 
 
     $('.count-number').each(function () {
@@ -71,6 +71,50 @@ $(function () {
         });
 
     });
+//counter section about
+    $('.before').mouseenter(
+        function () {
+            $('.skills').html('80');
+            $('.skills').addClass('bar-animation');
+            $('.bar-animation').each(function () {
+                $(this).prop('Counter', 0).animate({
+                    Counter: $(this).text()
+                }, {
+                    duration: 2000,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+
+            });
+        }
+    );
+    $('.before').mouseleave(
+        function () {
+            $('.skills').removeClass('bar-animation');
+            
+        
+        
+        setTimeout(function () {$('.skills').html('0'); }, 200);
+    });
+   
+
+
+    /*  $('.bar-animation').each(function () {
+          $(this).prop('Counter', 0).animate({
+              Counter: $(this).text()
+          }, {
+              duration: 4500,
+              easing: 'swing',
+              step: function (now) {
+                  $(this).text(Math.ceil(now));
+              }
+          });
+
+      });*/
+
+
 
 
 });
