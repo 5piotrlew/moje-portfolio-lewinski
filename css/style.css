@@ -93,10 +93,12 @@ header h1:hover::after {
 
 /* underline h1 - stop */
 
+/* zmienic cover na contain przy 1505x927*/
 #main-header {
     background-image: url(../img/wallhaven-500970.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 1000px;
     position: relative;
     background-attachment: scroll;
