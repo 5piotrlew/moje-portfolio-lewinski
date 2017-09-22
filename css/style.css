@@ -9,12 +9,15 @@ body {
     transition: 2.5s opacity;
 }
 
+
 /* Start script opacity - class for fade animation onload */
 
 body.fade-out {
     opacity: 0;
     transition: none;
 }
+
+
 /* opacity - stop */
 
 h1 {
@@ -34,7 +37,10 @@ section {
     padding-bottom: 50px;
     height: 800px;
 }
+
+
 /* General styles - Stop */
+
 
 /*Menu navigation - Start*/
 
@@ -65,11 +71,13 @@ section {
 
 /*Menu navigation - Stop*/
 
+
 /* Main-header - Start */
 
 header {
     margin-top: 50px;
 }
+
 
 /* Underline h1 - start */
 
@@ -91,9 +99,12 @@ header h1:hover::after {
     border-bottom-color: #ab760b;
 }
 
+
 /* underline h1 - stop */
 
+
 /* zmienic cover na contain przy 1505x927*/
+
 #main-header {
     background-image: url(../img/wallhaven-500970.jpg);
     background-position: center;
@@ -125,7 +136,9 @@ header h1:hover::after {
     font-weight: 300;
 }
 
+
 /* Main-header - Stop */
+
 
 /* Section about - Start */
 
@@ -158,6 +171,73 @@ header h1:hover::after {
     font-size: 1.5em;
     
 }
+
+
+/* skills bar start*/
+
+.image-programmer .before .bar-skills {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.image-programmer .before .skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+    transition: width 2s;
+}
+
+.image-programmer .before .html {
+    width: 0%;
+    background-color: #4CAF50;
+    
+}
+
+.image-programmer .before .css {
+    width: 0%;
+    background-color: #2196F3;
+    
+}
+
+.image-programmer .before .js {
+    width: 5%;
+    background-color: #f44336;
+    
+}
+
+.image-programmer .before .php {
+    width: 0%;
+    background-color: #808080;
+    
+}
+
+
+
+
+
+.image-programmer .before:hover .html {
+    width: 90%;
+    background-color: #4CAF50;
+}
+
+.image-programmer .before:hover .css {
+    width: 80%;
+    background-color: #2196F3;
+}
+
+.image-programmer .before:hover .js {
+    width: 65%;
+    background-color: #f44336;
+}
+
+.image-programmer .before:hover .php {
+    width: 60%;
+    background-color: #808080;
+}
+
+
+/* skills bar stop */
 
 .image-programmer .after {
     background: url('../img/IMG_9062.JPG');
@@ -192,9 +272,12 @@ header h1:hover::after {
     margin-bottom: 1.4em;
 }
 
+
 /* Section about - Stop */
 
+
 /* Section skills - Start */
+
 
 /* slider */
 
@@ -286,7 +369,9 @@ header h1:hover::after {
     padding: 5px;
 }
 
+
 /* section skills - stop */
+
 
 /* section experience - start */
 
@@ -309,5 +394,6 @@ header h1:hover::after {
 .obramowanie:not(:last-child) {
     border-right: 2px solid #ab760b;
 }
+
 
 /* section experience - stop */
