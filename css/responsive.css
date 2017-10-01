@@ -1,6 +1,8 @@
 @media all and (max-width: 927px) {
     #main-header {
         background-size: contain;
+        height: 87vh;
+        background-color: rgba(244, 231, 231, 0.9); 
     }
 }
 
