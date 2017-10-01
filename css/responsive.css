@@ -17,6 +17,19 @@
 }
 
 @media all and (max-width: 680px) {
+    .image-programmer .after {
+        
+        width: 200px;
+        float: left;
+        margin-left: -60px;
+    }
+    header {
+        
+        height: 50vh;
+    }
+    header h1::after {
+    display: none;
+}
      #main-header h1 {
         font-size: 2.5em;
     }

@@ -34,9 +34,9 @@ span {
 }
 
 section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    height: 800px;
+    
+    
+    padding-top: 5vh;
 }
 
 
@@ -146,6 +146,8 @@ header h1:hover::after {
 
 #about {
     background-color: #e0e0e0;
+    height: 84vh;
+    margin-bottom: 10vh;
 }
 
 .image-programmer {
@@ -285,6 +287,7 @@ header h1:hover::after {
 /* slider */
 
 #slider {
+    
     overflow: hidden;
     height: 700px;
     position: relative;
@@ -356,9 +359,10 @@ header h1:hover::after {
 }
 
 #skills #slider .slide-show .single-slide .item-mask .item-content {
-    height: 85%;
-    border: 1px solid #fff;
-    margin: 30px;
+    height: 90vh;
+    
+    border: 5px solid #fff;
+    margin: 10px;
     position: relative;
 }
 
@@ -403,10 +407,12 @@ header h1:hover::after {
 
 .count-number {
     font-size: 5em;
+    font-weight: 300;
 }
 
 .count-title {
     font-size: 1.5em;
+    font-weight: 400;
 }
 
 /* section experience - stop */
