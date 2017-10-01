@@ -1,0 +1,29 @@
+
+
+@media all and (max-width : 927px) {
+
+#main-header {
+    background-size: contain;
+}
+
+/*#main-header h1 {
+    transform: translateY(-20%);
+    top: 50%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    position: absolute;
+    font-size: 4em;
+}
+
+#main-header p {
+    transform: translateY(-100%);
+    top: 50%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    position: absolute;
+    font-size: 2em;
+    font-weight: 300;
+}*/
+}

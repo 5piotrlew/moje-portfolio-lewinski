@@ -1,6 +1,9 @@
 'use strict';
 
 $(function () {
+    
+    
+    
     /*zmienne*/
     var slideCount = $('.single-slide').length; //10
     var slideShow = $('.slide-show'); //ogolny kontener dla obrazkow
@@ -113,7 +116,6 @@ $(function () {
           });
 
       });*/
-
 
 
 
