@@ -16,6 +16,9 @@
 }
 
 @media all and (max-width: 680px) {
+    .image-programmer .before {
+        display: none;
+    }
     #skills #slider .slide-show .single-slide .item-mask {
     
     
