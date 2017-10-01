@@ -303,7 +303,8 @@ header h1:hover::after {
     top: 0;
     bottom: 0;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #slider .slide-show .single-slide .slider-caption {

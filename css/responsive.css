@@ -16,9 +16,14 @@
 }
 
 @media all and (max-width: 680px) {
-    #slider .slide-show .single-slide {
-        background-size: contain;
-        background-repeat: no-repeat;
+    #skills #slider .slide-show .single-slide .item-mask {
+    
+    
+    height: 41vh;
+    
+}
+    #skills #slider {
+        height: 50vh;
     }
 }
 
