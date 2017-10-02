@@ -5,9 +5,15 @@
         background-color: rgba(244, 231, 231, 0.9); 
     }
     #about {
-        height: 54vh;
+        height: 80vh;
+    }
+    #slider {
+        height: 78vh;
     }
     
+    #skills #slider .slide-show .single-slide .item-mask .item-content {
+        height: 66vh;
+    }
    
 }
 
@@ -50,15 +56,22 @@
         border-right: none;
     }
     
-    #slider {
-        overflow: visible;
+    #about {
+        height: 103vh;
     }
-   
-    
+    #slider {
+        height: 60vh;
+    }
+    #skills #slider .slide-show .single-slide .item-mask .item-content {
+        height: 48vh;
+    }
 }
 
 @media all and (max-width: 680px) {
    
+    header h1::after {
+        display: none;
+    }
     
     
     .col-minixs-12 {
@@ -88,11 +101,17 @@
     #skills #slider .slide-show .single-slide .item-mask {
     
     
-    height: 41vh;
+    height: 46vh;
     
 }
     #skills #slider {
-        height: 50vh;
+        height: 55vh;
+    }
+    #about {
+        height: 119vh;
+    }
+    #skills #slider .slide-show .single-slide .item-mask .item-content {
+        height: 43vh;
     }
 }
 
@@ -118,8 +137,15 @@
     #main-header p {
         font-size: 95%;
     }
-    .image-programmer .before {
-    width: 30vh;
-}
+
+    #about {
+        height: 133vh;
+    }
+    #skills #slider {
+        height: 32vh;
+    }
+    #skills #slider .slide-show .single-slide .item-mask .item-content {
+        height: 20vh;
+    }
     
 }

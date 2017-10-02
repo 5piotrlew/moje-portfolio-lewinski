@@ -290,7 +290,7 @@ header h1:hover::after {
 #slider {
     
     overflow: hidden;
-    height: 700px;
+    height: 88vh;
     position: relative;
     margin: auto;
     background-color: #e3e3e3;
