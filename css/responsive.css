@@ -4,9 +4,21 @@
         height: 87vh;
         background-color: rgba(244, 231, 231, 0.9); 
     }
+    #about {
+        height: 54vh;
+    }
+    
+   
 }
 
 @media all and (max-width: 768px) {
+    #contact .contact-data .contact-social-icons a {
+        margin: 0;
+        display: inline-block;
+    }
+    
+ 
+    
     #main-header {
         height: 75vh;
         margin-top: 0;
@@ -22,12 +34,12 @@
     }
     
     .image-programmer .before {
-        width: 65vh;
+        width: 90vw;
     }
     
     .image-programmer .after {
         width: 95vw;
-        height: 59vh;
+        height: 48vh;
     }
     
     #main-nav #main-menu ul li a:hover {
@@ -36,6 +48,10 @@
 }
     .obramowanie:nth-child(even) {
         border-right: none;
+    }
+    
+    #slider {
+        overflow: visible;
     }
    
     
@@ -61,9 +77,7 @@
         
         height: 50vh;
     }
-    header h1::after {
-    display: none;
-}
+ 
      #main-header h1 {
         font-size: 2.5em;
     }
@@ -83,6 +97,9 @@
 }
 
 @media all and (max-width: 480px) {
+    #contact .contact-data .contact-social-icons a {
+        margin: 0;
+    }
     .obramowanie {
         
         width: 100%;
@@ -91,9 +108,7 @@
     .obramowanie:nth-child(odd) {
         border-right: none;
     }
-    .image-programmer .before {
-        display: none;
-    }
+    
     #main-header {
         height: 46vh;
     }
@@ -103,14 +118,8 @@
     #main-header p {
         font-size: 95%;
     }
-    
-    
-    .image-programmer .after {
-        width: 95vw;
-        margin-left: 0;
-        margin-right: 0;
-        left: 0;
-        right: 0;
-    }
+    .image-programmer .before {
+    width: 30vh;
+}
     
 }
