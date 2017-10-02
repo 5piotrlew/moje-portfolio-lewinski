@@ -360,7 +360,7 @@ header h1:hover::after {
 }
 
 #skills #slider .slide-show .single-slide .item-mask .item-content {
-    height: 90vh;
+    height: 76vh;
     
     border: 5px solid #fff;
     margin: 10px;
