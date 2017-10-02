@@ -1,9 +1,9 @@
 'use strict';
 
 $(function () {
-    
-    
-    
+
+
+
     /*zmienne*/
     var slideCount = $('.single-slide').length; //10
     var slideShow = $('.slide-show'); //ogolny kontener dla obrazkow
@@ -74,7 +74,7 @@ $(function () {
         });
 
     });
-//counter section about
+    //counter section about
     $('.before').mouseenter(
         function () {
             $('.skills').html('80');
@@ -96,12 +96,14 @@ $(function () {
     $('.before').mouseleave(
         function () {
             $('.skills').removeClass('bar-animation');
-            
-        
-        
-        setTimeout(function () {$('.skills').html('0'); }, 200);
-    });
-   
+
+
+
+            setTimeout(function () {
+                $('.skills').html('0');
+            }, 200);
+        });
+
 
 
     /*  $('.bar-animation').each(function () {
@@ -116,6 +118,8 @@ $(function () {
           });
 
       });*/
+
+
 
 
 
