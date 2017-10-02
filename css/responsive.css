@@ -113,6 +113,10 @@
     #skills #slider .slide-show .single-slide .item-mask .item-content {
         height: 43vh;
     }
+    .image-programmer .before h3 {
+        display: none;
+    }
+    
 }
 
 @media all and (max-width: 480px) {
