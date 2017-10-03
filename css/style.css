@@ -244,9 +244,20 @@ header h1:hover::after {
 
 /* skills bar stop */
 
+    .maska {
+    position: absolute;
+    height: 56vh;
+    width: 52vw;
+    border: 32px solid #e0e0e0;
+    border-radius: 61px;
+    top: -4%;
+    left: -4%;
+
+}
+
 .image-programmer .after {
     background: url('../img/IMG_9062.JPG');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: (#e0e0e0;

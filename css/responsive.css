@@ -1,6 +1,6 @@
 @media all and (max-width: 927px) {
     #main-header {
-        background-size: contain;
+        
         height: 87vh;
         background-color: rgba(244, 231, 231, 0.9); 
     }
@@ -27,7 +27,7 @@
     
     #main-header {
         height: 75vh;
-        margin-top: 0;
+        
     }
     
     .col-minixs-12 {
@@ -44,9 +44,20 @@
     }
     
     .image-programmer .after {
-        width: 95vw;
-        height: 48vh;
+        width: 92vw;
+    height: 69vh;
+        background-position: bottom;
+        
     }
+    .maska {
+    position: absolute;
+    height: 74vh;
+    width: 100vw;
+    border: 32px solid white;
+    border-radius: 61px;
+    top: -2%;
+    left: -4%;
+}
     
     #main-nav #main-menu ul li a:hover {
     border-bottom: none;
@@ -117,6 +128,18 @@
         display: none;
     }
     
+    .maska {
+    
+    height: 76vh;
+    border: 43px solid white;
+    border-radius: 78px;
+    top: -2%;
+    left: -7%;
+        width: 108vw;
+}
+    
+  
+    
 }
 
 @media all and (max-width: 480px) {
@@ -134,6 +157,7 @@
     
     #main-header {
         height: 46vh;
+        
     }
      #main-header h1 {
         font-size: 100%;
