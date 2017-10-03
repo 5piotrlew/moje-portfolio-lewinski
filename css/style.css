@@ -244,15 +244,14 @@ header h1:hover::after {
 
 /* skills bar stop */
 
-    .maska {
+  .maska {
     position: absolute;
-    height: 56vh;
+    height: 57vh;
     width: 52vw;
     border: 32px solid #e0e0e0;
     border-radius: 61px;
-    top: -4%;
+    top: -5%;
     left: -4%;
-
 }
 
 .image-programmer .after {
