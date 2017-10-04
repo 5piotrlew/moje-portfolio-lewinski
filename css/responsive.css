@@ -1,8 +1,7 @@
 @media all and (max-width: 927px) {
     #main-header {
-        
         height: 87vh;
-        background-color: rgba(244, 231, 231, 0.9); 
+        background-color: rgba(244, 231, 231, 0.9);
     }
     #about {
         height: 80vh;
@@ -10,72 +9,53 @@
     #slider {
         height: 68vh;
     }
-    
     #skills #slider .slide-show .single-slide .item-mask .item-content {
         height: 56vh;
     }
     .maska {
-    position: absolute;
-    height: 57vh;
-    width: 54vw;
-    border: 32px solid #e0e0e0;
-    border-radius: 61px;
-    top: -4%;
-    left: -6%;
-}
-   
+        position: absolute;
+        height: 57vh;
+        width: 54vw;
+        border: 32px solid #e0e0e0;
+        border-radius: 61px;
+        top: -4%;
+        left: -6%;
+    }
+    
 }
 
 @media all and (max-width: 768px) {
-    #contact .contact-data .contact-social-icons a {
-        margin: 0;
-        display: inline-block;
-    }
-    
- 
-    
     #main-header {
         height: 75vh;
-        
     }
-    
     .col-minixs-12 {
         width: 0;
         float: none;
     }
-    
-     .programmer-description{
+    .programmer-description {
         margin-top: 10vh;
     }
-    
     .image-programmer .before {
         width: 90vw;
     }
-    
     .image-programmer .after {
         width: 92vw;
-    height: 69vh;
+        height: 69vh;
         background-position: bottom;
-        
     }
     .maska {
-    position: absolute;
-    height: 74vh;
-    width: 100vw;
-    border: 32px solid #e0e0e0;
-    border-radius: 61px;
-    top: -2%;
-    left: -4%;
-}
-    
+        height: 74vh;
+        width: 100vw;
+        top: -2%;
+        left: -4%;
+    }
     #main-nav #main-menu ul li a:hover {
-    border-bottom: none;
-    padding-bottom: none;
-}
+        border-bottom: none;
+        padding-bottom: none;
+    }
     .obramowanie:nth-child(even) {
         border-right: none;
     }
-    
     #about {
         height: 103vh;
     }
@@ -85,96 +65,60 @@
     #skills #slider .slide-show .single-slide .item-mask .item-content {
         height: 48vh;
     }
+    #contact .contact-data .contact-social-icons a {
+        margin: 0;
+        display: inline-block;
+    }
 }
 
 @media all and (max-width: 680px) {
-   
+    header {
+        height: 50vh;
+    }
     header h1::after {
         display: none;
     }
-    
-    
     .col-minixs-12 {
         width: 0;
     }
-   
-    
-     .image-programmer .after {
+    .image-programmer .after {
         width: 95vw;
         margin-left: 0;
-         margin-right: 0;
-         left: 0;
-         right: 0;
-    }
-    header {
-        
-        height: 50vh;
-    }
- 
-     #main-header h1 {
-        font-size: 2.5em;
-    }
-    #main-header p {
-        font-size: 1.5em;
-    }
-    
-    #skills #slider .slide-show .single-slide .item-mask {
-    
-    
-    height: 46vh;
-    
-}
-    #skills #slider {
-        height: 55vh;
-    }
-    #about {
-        height: 119vh;
-    }
-    #skills #slider .slide-show .single-slide .item-mask .item-content {
-        height: 43vh;
+        margin-right: 0;
+        left: 0;
+        right: 0;
     }
     .image-programmer .before h3 {
         display: none;
     }
-    
     .maska {
-    
-    height: 76vh;
-    border: 43px solid #e0e0e0;
-    border-radius: 78px;
-    top: -2%;
-    left: -7%;
+        height: 76vh;
+        border: 43px solid #e0e0e0;
+        border-radius: 78px;
+        left: -7%;
         width: 108vw;
-}
-    
+    }
   
-    
+    #about {
+        height: 119vh;
+    }
+    #skills #slider .slide-show .single-slide .item-mask {
+        height: 46vh;
+    }
+    #skills #slider {
+        height: 55vh;
+    }
+    #skills #slider .slide-show .single-slide .item-mask .item-content {
+        height: 43vh;
+    }
 }
 
 @media all and (max-width: 480px) {
-    #contact .contact-data .contact-social-icons a {
-        margin: 0;
-    }
-    .obramowanie {
-        
-        width: 100%;
-        float: none;
-    }
-    .obramowanie:nth-child(odd) {
-        border-right: none;
-    }
-    
+
     #main-header {
         height: 46vh;
-        
     }
-     #main-header h1 {
-        font-size: 100%;
-    }
-    #main-header p {
-        font-size: 95%;
-    }
-
+   
     #about {
         height: 133vh;
     }
@@ -184,5 +128,15 @@
     #skills #slider .slide-show .single-slide .item-mask .item-content {
         height: 20vh;
     }
+     .obramowanie {
+        width: 100%;
+        float: none;
+    }
+    .obramowanie:nth-child(odd) {
+        border-right: none;
+    }
     
+    #contact .contact-data .contact-social-icons a {
+        margin: 0;
+    }
 }

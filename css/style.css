@@ -146,7 +146,7 @@ header h1:hover::after {
 
 #about {
     background-color: #e0e0e0;
-    height: 84vh;
+    height: 74vh;
     margin-bottom: 10vh;
 }
 
@@ -246,19 +246,19 @@ header h1:hover::after {
 
   .maska {
     position: absolute;
-    height: 57vh;
-    width: 52vw;
-    border: 32px solid #e0e0e0;
+    height: 54vh;
+    width: 51vw;
+    border: 34px solid #e0e0e0;
     border-radius: 61px;
-    top: -5%;
-    left: -4%;
+    top: -3%;
+    left: -3%;
 }
 
 .image-programmer .after {
     background: url('../img/IMG_9062.JPG');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-color: (#e0e0e0;
     );
 }
@@ -278,7 +278,7 @@ header h1:hover::after {
 }
 
 .programmer-description {
-    font-size: 1.2em;
+    font-size: 1.8em;
     font-weight: 100;
     line-height: 1.7em;
 }
