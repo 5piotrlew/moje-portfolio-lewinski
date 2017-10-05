@@ -4,30 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Moje portfolio</title>
-
     <!-- Skompresowany Bootstrap CSS dodany lokalnie -->
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;subset=latin-ext" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=latin-ext" rel="stylesheet">
-
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-
     <!-- Main styles -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-
-
 </head>
 
 <body>
-
-
-
     <!--Menu navigation - START-->
     <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -36,7 +25,8 @@
                       <span class="sr-only">Toggle navigation</span>
                       <span>Menu</span>
                 </button>
-                <a href="#main-header" class="navbar-brand">Home</a>
+                <a href="#main-header" class="navbar-brand">
+                    <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>
             </div>
             <div class="collapse navbar-collapse" id="main-menu">
                 <ul class="nav navbar-nav navbar-right text-right">
@@ -52,7 +42,6 @@
 
     <!-- Main-header - START -->
     <header id="main-header">
-
         <h1>PIOTR <span>LEWIŃSKI</span></h1>
         <p> FRONT-END DEVELOPER</p>
     </header>
@@ -62,11 +51,10 @@
     <section id="about">
         <div class="container-fluid">
             <div class="row">
-                <h2>O <span>mnie</span></h2>
+                <h2 class="text-center">O <span>mnie</span></h2>
             </div>
-            <div class="row"> 
+            <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-minixs-12">
-
                     <div class="image-programmer">
                         <div class="before">
                             <h3>Poziom znajomości poszczególnych języków</h3>
@@ -88,7 +76,7 @@
 
                             <p>jQuery</p>
                             <div class="bar-skills">
-                                <div class="skills php">0</div>
+                                <div class="skills jquery">0</div>
                             </div>
                         </div>
                         <div class="after">
@@ -96,10 +84,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 programmer-description">
-                    <p id="row-nr-1"> Doświadczenie w programowaniu w językach HTML/CSS/JavaScript zdobywałem podczas kursu Frond End Developer oraz w pracy projektowej. Posługuję się technologiami SASS i GULP, korzystam z repozytorium GIT, implementuję proste rozwiązania bazodanowe.</p>
-                    <p id="row-nr-2"> Mam doświadczenie w pracy z JQuery i Bootstrapem, potrafię debugować. Analizuję i optymalizuję tworzony kod.</p>
-                    <p id="row-nr-3"> Jestem obeznany z serwisami: jira, confluence, guacamole, zimbra. Mam duże doświadczenie w rozwiązywaniu problemów technologii informatycznej. Bardzo szybko się uczę nowych technologii, dlatego chętnie podejmę nowe wyzwania.</p>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="programmer-description">
+                        <p id="row-nr-1"> Doświadczenie w programowaniu w językach HTML/CSS/JavaScript zdobywałem podczas kursu Frond End Developer oraz w pracy projektowej. Posługuję się technologiami SASS i GULP, korzystam z repozytorium GIT, implementuję proste rozwiązania bazodanowe.</p>
+                        <p id="row-nr-2"> Mam doświadczenie w pracy z JQuery i Bootstrapem, potrafię debugować. Analizuję i optymalizuję tworzony kod.</p>
+                        <p id="row-nr-3"> Jestem obeznany z serwisami: jira, confluence, guacamole, zimbra. Mam duże doświadczenie w rozwiązywaniu problemów technologii informatycznej. Bardzo szybko się uczę nowych technologii, dlatego chętnie podejmę nowe wyzwania.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -109,8 +99,7 @@
     <!--section skills - slider - Start -->
     <section id="skills">
         <div id="slider">
-           
-            <h2>Moje <span>Umiejętności</span></h2>
+            <h2 class="text-center">Moje <span>Umiejętności</span></h2>
             <div class="slide-show">
 
                 <div class="skills-item-1 single-slide">
@@ -168,61 +157,63 @@
     </section>
     <!--section skills - Stop -->
 
-    <!--section licznik - Start -->
+    <!--section counter - Start -->
 
-    <section id="counter" class="container-fluid">
-       <div class="row">
-           <h2 class="text-center">Moje <span>Doświadczenie</span></h2>
-       </div>
-        <div id="counter-1" class="page-section p-80-cont grey-light-bg">
+    <section id="experience">
+        <div class="container-fluid">
             <div class="row">
+                <h2 class="text-center">Moje <span>Doświadczenie</span></h2>
+            </div>
+            <div id="counter-1" class="page-section p-80-cont grey-light-bg">
+                <div class="row">
 
-                <div class="text-center">
+                    <div class="text-center">
 
-                    <!-- Item -->
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6  obramowanie">
-                        <div class="count-number">3</div>
-                        <div class="count-descr">
-                            <span class="count-title">LATA DOŚWIADCZENIA W IT</span>
+                        <!-- Item -->
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6  obramowanie">
+                            <div class="count-number">3</div>
+                            <div class="count-descr">
+                                <span class="count-title">LATA DOŚWIADCZENIA W IT</span>
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- Item -->
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 obramowanie">
+                        <!-- Item -->
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 obramowanie">
 
-                        <div class="count-number">4</div>
-                        <div class="count-descr">
-                            <span class="count-title">UKOŃCZONE PROJEKTY WEBOWE</span>
+                            <div class="count-number">4</div>
+                            <div class="count-descr">
+                                <span class="count-title">UKOŃCZONE PROJEKTY WEBOWE</span>
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- Item -->
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 obramowanie">
-                        <div class="count-number">12</div>
-                        <div class="count-descr">
-                            <span class="count-title">WSPIERANYCH PROJEKTÓW</span>
+                        <!-- Item -->
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 obramowanie">
+                            <div class="count-number">12</div>
+                            <div class="count-descr">
+                                <span class="count-title">WSPIERANYCH PROJEKTÓW</span>
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- Item -->
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 obramowanie">
-                        <div class="count-number">13</div>
-                        <div class="count-descr">
-                            <span class="count-title">PRZEBYTYCH KURSÓW</span>
+                        <!-- Item -->
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 obramowanie">
+                            <div class="count-number">13</div>
+                            <div class="count-descr">
+                                <span class="count-title">PRZEBYTYCH KURSÓW</span>
+                            </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!--section licznik - Stop -->
 
-<!-- Contact Section Start -->
+    <!-- Contact Section Start -->
 
     <section id="contact">
         <div class="container">
-            <div class="row"> 
+            <div class="row">
                 <div class="contact-data col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <h2>Piotr <span>Lewiński</span></h2>
                     <address>

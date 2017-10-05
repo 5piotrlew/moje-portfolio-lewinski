@@ -11,23 +11,18 @@ body {
 }
 
 
-/* Start script opacity - class for fade animation onload */
+/* .fade-out - class for fade animation onload */
 
 body.fade-out {
     opacity: 0;
     transition: none;
 }
 
-
-/* opacity - stop */
-
 h1 {
     font-weight: 300;
 }
 
-h2 {
-    text-align: center;
-}
+
 
 span {
     color: darkgoldenrod;
@@ -211,7 +206,7 @@ header h1:hover::after {
     
 }
 
-.image-programmer .before .php {
+.image-programmer .before .jquery {
     width: 0%;
     background-color: #ddd;
     
@@ -236,7 +231,7 @@ header h1:hover::after {
     background-color: #f44336;
 }
 
-.image-programmer .before:hover .php {
+.image-programmer .before:hover .jquery {
     width: 60%;
     background-color: #808080;
 }
@@ -370,7 +365,7 @@ header h1:hover::after {
 }
 
 #skills #slider .slide-show .single-slide .item-mask .item-content {
-    height: 76vh;
+    height: 80vh;
     
     border: 5px solid #fff;
     margin: 10px;
