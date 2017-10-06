@@ -331,23 +331,75 @@ header h1:hover::after {
 }
 
 #skills #slider .slide-show .skills-item-1 {
-    background-image: url(../img/blue-group_responsive_design.png);
-}
-
-#skills #slider .slide-show .skills-item-2 {
-    background-image: url(../img/cmd.jpg);
-}
-
-#skills #slider .slide-show .skills-item-3 {
     background-image: url(../img/html-1.png);
 }
 
+#skills #slider .slide-show .skills-item-2 {
+    background-image: url(../img/css3-460x287.jpg);
+}
+
+#skills #slider .slide-show .skills-item-3 {
+    background-image: url(../img/javascript-encode-.png);
+}
+
 #skills #slider .slide-show .skills-item-4 {
-    background-image: url(../img/git.png);
+    background-image: url(../img/jquery-660x270.jpg);
 }
 
 #skills #slider .slide-show .skills-item-5 {
-    background-image: url(../img/javascript-encode-.png);
+    background-image: url(../img/images_old_blog_twitter-bootstrap.jpg);
+}
+
+#skills #slider .slide-show .skills-item-6 {
+    background-image: url(../img/ajax-logo.jpg);
+}
+#skills #slider .slide-show .skills-item-7 {
+    background-image: url(../img/json.png);
+}
+#skills #slider .slide-show .skills-item-8 {
+    background-image: url(../img/blue-group_responsive_design.png);
+}
+#skills #slider .slide-show .skills-item-9 {
+    background-image: url(../img/sass-gulp-720x400.png);
+}
+#skills #slider .slide-show .skills-item-10 {
+    background-image: url(../img/git.png);
+}
+#skills #slider .slide-show .skills-item-11 {
+    background-image: url(../img/jira_logo_landing.png.png);
+}
+#skills #slider .slide-show .skills-item-12 {
+    background-image: url(../img/comando-cmd.jpg);
+}
+#skills #slider .slide-show .skills-item-13 {
+    background-image: url(../img/bash.png);
+}
+#skills #slider .slide-show .skills-item-14 {
+    background-image: url(../img/linux-logo.png);
+}
+#skills #slider .slide-show .skills-item-15 {
+    background-image: url(../img/windows-logo-wallpaper-25.jpg);
+}
+#skills #slider .slide-show .skills-item-16 {
+    background-image: url(../img/confluence.png);
+}
+#skills #slider .slide-show .skills-item-17 {
+    background-image: url(../img/zimbra.png);
+}
+#skills #slider .slide-show .skills-item-18 {
+    background-image: url(../img/wordpress-logo.jpg);
+}
+#skills #slider .slide-show .skills-item-19 {
+    background-image: url(../img/react.png);
+}
+#skills #slider .slide-show .skills-item-20 {
+    background-image: url(../img/angular-logo.png);
+}
+#skills #slider .slide-show .skills-item-21 {
+    background-image: url(../img/php.png);
+}
+#skills #slider .slide-show .skills-item-22 {
+    background-image: url(../img/mysql-logo.jpg);
 }
 
 #skills #slider .slide-show .single-slide .item-mask {
