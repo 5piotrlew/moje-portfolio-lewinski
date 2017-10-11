@@ -11,6 +11,7 @@ body {
 }
 
 
+
 /* .fade-out - class for fade animation onload */
 
 body.fade-out {
@@ -164,6 +165,9 @@ header h1:hover::after {
     box-sizing: border-box;
     transition: 0.6s transform linear;
     backface-visibility: hidden;
+    border: 10px solid #e0e0e0;
+    border-radius: 50px;
+    
 }
 
 .image-programmer .before {
@@ -239,15 +243,7 @@ header h1:hover::after {
 
 /* skills bar stop */
 
-  .maska {
-    position: absolute;
-    height: 54vh;
-    width: 51vw;
-    border: 34px solid #e0e0e0;
-    border-radius: 61px;
-    top: -3%;
-    left: -3%;
-}
+
 
 .image-programmer .after {
     background: url('../img/IMG_9062.JPG');
@@ -550,3 +546,6 @@ header h1:hover::after {
 }
 
 /*Contact section - Stop*/
+
+
+

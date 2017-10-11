@@ -12,15 +12,7 @@
     #skills #slider .slide-show .single-slide .item-mask .item-content {
         height: 56vh;
     }
-    .maska {
-        position: absolute;
-        height: 57vh;
-        width: 54vw;
-        border: 32px solid #e0e0e0;
-        border-radius: 61px;
-        top: -4%;
-        left: -6%;
-    }
+   
     
 }
 
@@ -43,12 +35,7 @@
         height: 69vh;
         background-position: bottom;
     }
-    .maska {
-        height: 74vh;
-        width: 100vw;
-        top: -2%;
-        left: -4%;
-    }
+   
     #main-nav #main-menu ul li a:hover {
         border-bottom: none;
         padding-bottom: none;
@@ -90,13 +77,6 @@
     }
     .image-programmer .before h3 {
         display: none;
-    }
-    .maska {
-        height: 76vh;
-        border: 43px solid #e0e0e0;
-        border-radius: 78px;
-        left: -7%;
-        width: 108vw;
     }
   
     #about {
