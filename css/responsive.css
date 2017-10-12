@@ -1,3 +1,22 @@
+@media all and (max-width: 1400px) {
+    
+    .programmer-description {
+    font-size: 1.5em;
+    
+}
+    
+}
+
+@media all and (max-width: 1200px) {
+    
+    .programmer-description {
+    font-size: 1.3em;
+    
+}
+    
+}
+
+
 @media all and (max-width: 927px) {
     #main-header {
         height: 87vh;
@@ -6,12 +25,20 @@
     #about {
         height: 80vh;
     }
+    
+    
+    .programmer-description {
+    
+    font-size: 1.1em;
+}
     #slider {
         height: 68vh;
     }
     #skills #slider .slide-show .single-slide .item-mask .item-content {
         height: 56vh;
     }
+    
+    
    
     
 }
@@ -24,8 +51,15 @@
         width: 0;
         float: none;
     }
+    
+    #about {
+        height: 44vh; 
+    }
+    
     .programmer-description {
         margin-top: 10vh;
+        font-size: 1.3em;
+        
     }
     .image-programmer .before {
         width: 90vw;
@@ -35,6 +69,10 @@
         height: 69vh;
         background-position: bottom;
     }
+    
+    .image-programmer {
+        height: 60vh;
+    }
    
     #main-nav #main-menu ul li a:hover {
         border-bottom: none;
@@ -43,9 +81,7 @@
     .obramowanie:nth-child(even) {
         border-right: none;
     }
-    #about {
-        height: 103vh;
-    }
+    
     #slider {
         height: 60vh;
     }
@@ -65,9 +101,7 @@
     header h1::after {
         display: none;
     }
-    .col-minixs-12 {
-        width: 0;
-    }
+   
     .image-programmer .after {
         width: 95vw;
         margin-left: 0;
@@ -80,7 +114,7 @@
     }
   
     #about {
-        height: 119vh;
+        height: 71vh;
     }
     #skills #slider .slide-show .single-slide .item-mask {
         height: 46vh;
@@ -93,6 +127,9 @@
     }
 }
 
+
+
+
 @media all and (max-width: 480px) {
 
     #main-header {
@@ -100,7 +137,7 @@
     }
    
     #about {
-        height: 133vh;
+        height: 94vh;
     }
     #skills #slider {
         height: 32vh;

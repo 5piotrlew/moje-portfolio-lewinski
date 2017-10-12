@@ -148,10 +148,9 @@ header h1:hover::after {
 
 .image-programmer {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 47.9vw;
-    border-radius: 1em;
+    
+    
+    
     height: 50vh;
     perspective: 800px;
 }
