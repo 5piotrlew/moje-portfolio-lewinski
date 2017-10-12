@@ -185,7 +185,8 @@
         
     }
     #about {
-        height: 160vh;
+        height: 149vh;
+        margin-bottom: 0;
     }
     #skills #slider {
         height: 32vh;
@@ -203,6 +204,9 @@
     
     #skills #slider .slide-show .single-slide .item-mask {
         font-size: 0.7em;
+    }
+    #slider .slide-show {
+        height: 20vh;
     }
     
     
