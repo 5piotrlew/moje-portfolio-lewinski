@@ -23,12 +23,12 @@
         background-color: rgba(244, 231, 231, 0.9);
     }
     #about {
-        height: 80vh;
+        height: 62vh;
     }
     
     
     .programmer-description {
-    
+    padding-top: 10px;
     font-size: 1.1em;
 }
     #slider {
@@ -108,13 +108,19 @@
         margin-right: 0;
         left: 0;
         right: 0;
+        height: 50vh;
     }
     .image-programmer .before h3 {
         display: none;
     }
   
+    .programmer-description {
+        margin-top: -70px;
+        padding-top: 0;
+        
+    }
     #about {
-        height: 71vh;
+        height: 117vh;
     }
     #skills #slider .slide-show .single-slide .item-mask {
         height: 46vh;
@@ -125,6 +131,35 @@
     #skills #slider .slide-show .single-slide .item-mask .item-content {
         height: 43vh;
     }
+    
+    .contact-data {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #contact .contact-data .contact-social-icons {
+        padding-left: 20px;
+    }
+    
+    #contact .contact-data .contact-social-icons a {
+        
+        margin-right: 20px;
+    }
+    
+    .contact-form {
+        100%;
+    }
+    
+    #contact .contact-form input, #contact .contact-form textarea, #contact .contact-form input[type="submit"] {
+        
+        margin: 0 55%;
+        
+        
+        text-align: center;
+    }
+    
+    
+    
 }
 
 
@@ -151,8 +186,14 @@
     .image-programmer .after {
         height: 48vh;
     }
+    
+    .programmer-description {
+        margin-top: 20px;
+        
+        
+    }
     #about {
-        height: 120vh;
+        height: 125vh;
     }
     #skills #slider {
         height: 32vh;
