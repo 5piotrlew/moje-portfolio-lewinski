@@ -135,9 +135,24 @@
     #main-header {
         height: 46vh;
     }
-   
+    
+    #main-header h1 {
+        font-size: 3em;
+    }
+    #main-header p {
+        font-size: 1.3em;
+    }
+    
+    .image-programmer {
+        height: 45vh;
+    }
+    
+     
+    .image-programmer .after {
+        height: 48vh;
+    }
     #about {
-        height: 94vh;
+        height: 120vh;
     }
     #skills #slider {
         height: 32vh;
