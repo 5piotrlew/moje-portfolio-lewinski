@@ -53,7 +53,7 @@
     }
     
     #about {
-        height: 44vh; 
+        height: 129vh; 
     }
     
     .programmer-description {
@@ -120,7 +120,7 @@
         
     }
     #about {
-        height: 117vh;
+        height: 122vh;
     }
     #skills #slider .slide-show .single-slide .item-mask {
         height: 46vh;
@@ -147,18 +147,9 @@
     }
     
     .contact-form {
-        100%;
+        width: 100%;
     }
-    
-    #contact .contact-form input, #contact .contact-form textarea, #contact .contact-form input[type="submit"] {
-        
-        margin: 0 55%;
-        
-        
-        text-align: center;
-    }
-    
-    
+     
     
 }
 
@@ -180,6 +171,7 @@
     
     .image-programmer {
         height: 45vh;
+        margin-left: -17px;
     }
     
      
@@ -193,7 +185,7 @@
         
     }
     #about {
-        height: 125vh;
+        height: 160vh;
     }
     #skills #slider {
         height: 32vh;
@@ -209,7 +201,9 @@
         border-right: none;
     }
     
-    #contact .contact-data .contact-social-icons a {
-        margin: 0;
+    #skills #slider .slide-show .single-slide .item-mask {
+        font-size: 0.7em;
     }
+    
+    
 }
