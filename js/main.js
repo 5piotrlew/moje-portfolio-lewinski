@@ -142,9 +142,31 @@ function typeWriter() {
         c++;
         setTimeout(typeWriter, 150);
     }
-};
+}
 
 typeWriter();
+    
+    /* jQuery(function ($) {
+
+// start all the timers
+$('.timer').each(count);
+
+// restart a timer when a button is clicked
+$( window ).scroll(function () {console.log($(window).scrollTop());
+if($(window).scrollTop() > 300 && $(window).scrollTop() < 850)
+{
+$('.timer').each(count);
+}
+});
+
+function count(options) {
+var $this = $(this);
+options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+$this.countTo(options);
+}
+}); "*/
+    
+
     
     
 });
