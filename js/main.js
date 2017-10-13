@@ -3,11 +3,27 @@
 $(function () {
     
     
-    $("a[href*='#']").click(function () {
+    /*$("a[href*='#']").click(function () {
         $('body').animate({
             scrollTop: $(this.hash).offset().top - 50
         }, 500);
-    });
+    });*/
+    
+    
+    //Scroll to
+  $('a[href^="#"]').on('click', function(event) {
+    var target = $(this.getAttribute('href'));
+
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+  });
+    
+    
+    
     
     
     
