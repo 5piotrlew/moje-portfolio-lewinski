@@ -490,6 +490,67 @@ header h1:hover::after {
 
 /* section experience - stop */
 
+
+/* section my-projects */
+
+#my-projects {
+ height: 700px;
+margin-bottom: 30.7px;
+}
+
+#my-projects .my-projects-title {
+    -webkit-clip-path: polygon(0 0, 68% 0, 29% 100%, 0 99%);
+    clip-path: polygon(0 0, 68% 0, 29% 99%, 0 99%);
+    background-color: #eee;
+    height: 700px;
+    position: absolute;    
+}
+
+#my-projects .my-projects-description {
+    background-color: blue;
+    height: 700px;   
+    padding-left: 250px;
+}
+
+#my-projects .my-projects-description ul {
+    display: inline-block;
+    margin: 0 auto;
+    padding:  100px 0;
+    list-style: none;
+}
+
+.my-projects-desc-header {
+    display: inline-block;
+    width: 400px;
+    padding-right: 150px;
+}
+
+
+#my-projects .my-projects-description ul li {
+    color: black;
+    font-size: 4em;
+    margin-top: 25px;
+    border: 2px dotted transparent;
+    border-radius: 50px;
+    border-left-color: red;
+}
+
+#my-projects .my-projects-description ul li:nth-child(1){
+  margin-left: 0;  
+}
+#my-projects .my-projects-description ul li:nth-child(2){
+    margin-left: -20px;
+}
+#my-projects .my-projects-description ul li:nth-child(3){
+    margin-left: -40px;
+}
+#my-projects .my-projects-description ul li:nth-child(4){
+    margin-left: -60px;
+}
+/* section my-projects */
+
+
+
 /*Contact section - Start*/
 
 #contact {
