@@ -499,7 +499,7 @@ margin-bottom: 30.7px;
 }
 
 #my-projects .my-projects-title {
-    -webkit-clip-path: polygon(0 0, 68% 0, 29% 100%, 0 99%);
+    -webkit-clip-path: polygon(0 0, 68% 0, 29% 99%, 0 99%);
     clip-path: polygon(0 0, 68% 0, 29% 99%, 0 99%);
     background-color: #eee;
     height: 700px;
@@ -507,7 +507,7 @@ margin-bottom: 30.7px;
 }
 
 #my-projects .my-projects-description {
-    background-color: blue;
+    
     height: 700px;   
     padding-left: 250px;
 }
@@ -531,8 +531,7 @@ margin-bottom: 30.7px;
     font-size: 4em;
     margin-top: 25px;
     border: 2px dotted transparent;
-    border-radius: 50px;
-    border-left-color: red;
+    border-bottom-color: #213b50;
 }
 
 #my-projects .my-projects-description ul li:nth-child(1){
