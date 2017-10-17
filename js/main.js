@@ -182,7 +182,25 @@ $this.countTo(options);
 }
 }); "*/
     
-
     
     
+    /*$('.count-title-button').click(function(){
+        $('#my-projects').css({'display': 'none'});
+    });*/
+    var projekty = 1;
+    $('#my-projects').hide("slow");  
+    $('.count-title-button').click(function(){      
+        projekty++;
+        if (projekty % 2 == 0) {
+            console.log('reszta zero' + projekty);
+            $('#my-projects').show("slow");
+            $('.count-title-button').text('Ukryj').css({'color':'#eee'});            
+        } else {
+            console.log('niepodzielne'+ projekty);
+            $('#my-projects').hide("slow");            
+            $('.count-title-button').text('Zobacz').css({'color':'#eee'});             
+        }          
+            
+    });
+        
 });
