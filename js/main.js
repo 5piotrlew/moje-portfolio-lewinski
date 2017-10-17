@@ -88,8 +88,8 @@ $(function () {
         function () {
             $('.html').html('90');
             $('.css').html('80');
-            $('.js').html('70');
-            $('.jquery').html('60');
+            $('.js').html('67');
+            $('.jquery').html('65');
             $('.skills').addClass('bar-animation');
             $('.bar-animation').each(function () {
                 $(this).prop('Counter', 0).animate({

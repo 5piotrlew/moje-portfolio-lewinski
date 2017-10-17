@@ -168,11 +168,8 @@ header h1:hover::after {
 }
 
 .image-programmer {
-    display: block;
-    
-    
-    
-    height: 50vh;
+    display: block; 
+    height: 65vh;
     perspective: 800px;
 }
 
@@ -191,8 +188,7 @@ header h1:hover::after {
 }
 
 .image-programmer .before {
-    font-size: 1.5em;
-    
+    font-size: 1.5em;    
 }
 
 
@@ -232,13 +228,8 @@ header h1:hover::after {
 
 .image-programmer .before .jquery {
     width: 0%;
-    background-color: #ddd;
-    
+    background-color: #ddd;    
 }
-
-
-
-
 
 .image-programmer .before:hover .html {
     width: 90%;
@@ -251,12 +242,12 @@ header h1:hover::after {
 }
 
 .image-programmer .before:hover .js {
-    width: 65%;
+    width: 67%;
     background-color: #f44336;
 }
 
 .image-programmer .before:hover .jquery {
-    width: 60%;
+    width: 65%;
     background-color: #808080;
 }
 
@@ -433,7 +424,7 @@ header h1:hover::after {
 }
 
 #skills #slider .slide-show .single-slide .item-mask .item-content {
-    height: 76vh;    
+    height: 77vh;    
     border: 5px solid #fff;
     margin: 10px;
     position: relative;
@@ -486,14 +477,14 @@ header h1:hover::after {
 .count-title {
     font-size: 1.5em;
     font-weight: 400;
+    text-align: center;
 }
 
 
 .count-title-button {
   border-radius: 4px;
   background-color: #f4511e;
-  border: none;
-  
+  border: none;  
   text-align: center;
   font-size: 28px;
   padding: 10px;
@@ -501,6 +492,9 @@ header h1:hover::after {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
+    float: right;
+    
+    
 }
 
 .count-title-button span {
@@ -558,14 +552,22 @@ header h1:hover::after {
     display: inline-block;
     width: 400px;
     padding-right: 150px;
+    color: #ab760b;
 }
 
 
 #my-projects .my-projects-description .items {
     color: black;
-    font-size: 1.3em;
-    font-weight: 300;
-    margin-top: 25px;   
+    font-size: 1.33em;
+    font-weight: 700;
+    margin-top: 25px;  
+    font-style: italic;
+    color: #ab760b;
+    transition: 0.3s all; 
+}
+
+#my-projects .my-projects-description:hover .items {
+    
 }
 
 .icons {
@@ -578,8 +580,12 @@ header h1:hover::after {
     right: 0;
     margin: auto;
     margin-left: 116px;
-    color: black;
+    color: #213b50;
+    font-weight: 700;
     font-size: 2em;
+}
+.icons a:hover {
+    color: #426684;
 }
 
 .icons.icons-item-1{
@@ -638,24 +644,6 @@ header h1:hover::after {
 }
 #my-projects .my-projects-description .items.project-item-9{
     margin-left: -87px;
-}
-
-#my-projects h3::after {
-    content: '';
-    position: absolute;
-    border: 2px solid transparent;
-    height: 1px;
-    width: 0;
-    margin: auto;
-    margin-top: 70px;
-    left: -310px;
-    right: 0;
-    transition: 1s all;
-}
-
-#my-projects h3:hover::after {
-    width: 450px;
-    border-bottom-color: #ab760b;
 }
 
 /* section my-projects */
