@@ -43,9 +43,8 @@ $(function () {
         });
     }
 
-    carousel();
+    
     slideIndex = 0;
-
     function carousel() {
         slideIndex++;
         slide(slideIndex);
@@ -53,7 +52,23 @@ $(function () {
             slideIndex = -1;
         };
     };
-    setInterval(carousel, 5000);
+    //setInterval(carousel, 5000);
+    
+    //
+    
+    $(function () {
+        var timerId = setInterval(carousel, 5000);
+
+        $('.slide-show').mouseenter(function () {
+            clearInterval(timerId);
+        });
+
+        $('.slide-show').mouseleave(function () {
+            timerId = setInterval(carousel, 5000);
+        });
+    });
+    //
+
 
     /*section experience - counter*/
 
