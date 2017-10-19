@@ -1,16 +1,7 @@
 'use strict';
 
 $(function () {
-    
-    
-    /*$("a[href*='#']").click(function () {
-        $('body').animate({
-            scrollTop: $(this.hash).offset().top - 50
-        }, 500);
-    });*/
-    
-    
-    //Scroll to
+        //Scroll to
   $('a[href^="#"]').on('click', function(event) {
     var target = $(this.getAttribute('href'));
 
@@ -22,20 +13,17 @@ $(function () {
     }
   });
     
-    
-    
-    
-    
-    
-    /*zmienne*/
+
+    /* slider - start */
+    /*variables*/
     var slideCount = $('.single-slide').length; 
     var slideShow = $('.slide-show'); 
 
     var slideWidth = 100 / slideCount; 
     var slideIndex = 0; 
-    /*szerokośc kontenera wynosząca ilość slajdów*/
+    /*width div equal to slides length*/
     slideShow.css('width', slideCount * 100 + '%'); 
-    /*szerokosc i położenie każdego slajdu - marginesy*/
+    /*width and position of each slide - margins*/
     $('.single-slide').each(function (index) { 
         $(this).css({ 
             'width': slideWidth + '%', 
@@ -120,9 +108,7 @@ setTimeout(function () {
 }, 1) ;
 
 
-/* koniec efektu */
-
-/* typing effect - start */
+/* typing effect - start - section about */
 
 var rowOne = document.getElementById("row-nr-1").textContent;
 var rowOneZ = document.getElementById("row-nr-1");
@@ -162,44 +148,18 @@ function typeWriter() {
 
 typeWriter();
     
-    /* jQuery(function ($) {
-
-// start all the timers
-$('.timer').each(count);
-
-// restart a timer when a button is clicked
-$( window ).scroll(function () {console.log($(window).scrollTop());
-if($(window).scrollTop() > 300 && $(window).scrollTop() < 850)
-{
-$('.timer').each(count);
-}
-});
-
-function count(options) {
-var $this = $(this);
-options = $.extend({}, options || {}, $this.data('countToOptions') || {});
-$this.countTo(options);
-}
-}); "*/
-    
-    
-    
-    /*$('.count-title-button').click(function(){
-        $('#my-projects').css({'display': 'none'});
-    });*/
+ /* buttons - on click show/hide projects and courses */
     var projekty = 1;
     $('#my-projects').hide("slow");  
     $('.count-title-button').click(function(){      
         projekty++;
         if (projekty % 2 == 0) {
-            console.log('reszta zero' + projekty);
             $('#my-projects').show("slow");
             $('.count-title-button').text('Ukryj').css({'color':'#eee'});            
         } else {
-            console.log('niepodzielne'+ projekty);
             $('#my-projects').hide("slow");            
             $('.count-title-button').text('Zobacz').css({'color':'#eee'});             
-        }          
+        }         
             
     });
         
