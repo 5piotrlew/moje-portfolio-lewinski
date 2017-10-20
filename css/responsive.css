@@ -8,9 +8,16 @@
     .programmer-description {
         font-size: 1.3em;
     }
+      #skills #slider .slide-show .single-slide .item-mask .item-content .item-content-inner {
+    font-size: 1.6em;
+    line-height: 1.6em;
 }
-
+}
+ 
 @media all and (max-width: 927px) {
+  
+    
+    
     #main-header {
         height: 87vh;
         background-color: rgba(244, 231, 231, 0.9);
@@ -32,6 +39,11 @@
 }
 
 @media all and (max-width: 768px) {
+     #skills #slider .slide-show .single-slide .item-mask .item-content .item-content-inner {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+    
     #main-header {
         height: 75vh;
     }
