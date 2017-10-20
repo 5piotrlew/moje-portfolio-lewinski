@@ -21,7 +21,7 @@ $(function () {
 
     var slideWidth = 100 / slideCount; 
     var slideIndex = 0; 
-    /*width div equal to slides length*/
+    /*div width is equal to slides length*/
     slideShow.css('width', slideCount * 100 + '%'); 
     /*width and position of each slide - margins*/
     $('.single-slide').each(function (index) { 
