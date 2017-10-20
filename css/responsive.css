@@ -1,21 +1,14 @@
 @media all and (max-width: 1400px) {
-
     .programmer-description {
         font-size: 1.5em;
-
     }
-
 }
 
 @media all and (max-width: 1200px) {
-
     .programmer-description {
         font-size: 1.3em;
-
     }
-
 }
-
 
 @media all and (max-width: 927px) {
     #main-header {
@@ -26,7 +19,6 @@
         height: 62vh;
     }
 
-
     .programmer-description {
         padding-top: 10px;
         font-size: 1.1em;
@@ -35,12 +27,8 @@
         height: 68vh;
     }
     #skills #slider .slide-show .single-slide .item-mask .item-content {
-        height: 56vh;
+        height: 87%;
     }
-
-
-
-
 }
 
 @media all and (max-width: 768px) {
@@ -51,15 +39,12 @@
         width: 0;
         float: none;
     }
-
     #about {
         height: 129vh;
     }
-
     .programmer-description {
         margin-top: 10vh;
         font-size: 1.3em;
-
     }
     .image-programmer .before {
         width: 90vw;
@@ -69,11 +54,9 @@
         height: 69vh;
         background-position: bottom;
     }
-
     .image-programmer {
         height: 60vh;
     }
-
     #main-nav #main-menu ul li a:hover {
         border-bottom: none;
         padding-bottom: none;
@@ -81,12 +64,11 @@
     .obramowanie:nth-child(even) {
         border-right: none;
     }
-
     #slider {
         height: 60vh;
     }
     #skills #slider .slide-show .single-slide .item-mask .item-content {
-        height: 48vh;
+        height: 51vh;
     }
     #contact .contact-data .contact-social-icons a {
         margin: 0;
@@ -101,7 +83,6 @@
     header h1::after {
         display: none;
     }
-
     .image-programmer .after {
         width: 95vw;
         margin-left: 0;
@@ -113,76 +94,54 @@
     .image-programmer .before h3 {
         display: none;
     }
-
     .programmer-description {
         margin-top: -70px;
         padding-top: 0;
-
     }
     #about {
         height: 122vh;
     }
-    #skills #slider .slide-show .single-slide .item-mask {
-        height: 46vh;
-    }
+  
     #skills #slider {
         height: 55vh;
     }
     #skills #slider .slide-show .single-slide .item-mask .item-content {
-        height: 43vh;
+        height: 46.5vh;
     }
-
     .contact-data {
         width: 100%;
         text-align: center;
     }
-
     #contact .contact-data .contact-social-icons {
         padding-left: 20px;
     }
-
     #contact .contact-data .contact-social-icons a {
-
         margin-right: 20px;
     }
-
     .contact-form {
         width: 100%;
     }
-
-
 }
 
-
-
-
 @media all and (max-width: 480px) {
-
     #main-header {
         height: 46vh;
     }
-
     #main-header h1 {
         font-size: 3em;
     }
     #main-header p {
         font-size: 1.3em;
     }
-
     .image-programmer {
         height: 45vh;
         margin-left: -17px;
     }
-
-
     .image-programmer .after {
         height: 48vh;
     }
-
     .programmer-description {
         margin-top: 20px;
-
-
     }
     #about {
         height: 149vh;
@@ -192,7 +151,7 @@
         height: 32vh;
     }
     #skills #slider .slide-show .single-slide .item-mask .item-content {
-        height: 20vh;
+        height: 18vh;
     }
     .obramowanie {
         width: 100%;
