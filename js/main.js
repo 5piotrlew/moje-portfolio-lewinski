@@ -193,11 +193,15 @@ $(function () {
     console.log("scrolltopWindow" + $(window).scrollTop());
     console.log("heightWindow" + $(window).height());
 
-
+    var flag = true;
     $(window).scroll(function () {
 
         if ($(window).scrollTop() >= 2085) {
             console.log("2085");
+            if (flag) {
+                console.log("tutaj animacja");
+                flag = false;
+            }
         }
     });
 
