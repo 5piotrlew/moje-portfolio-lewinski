@@ -178,18 +178,7 @@ $(function () {
 
 
 
-    $('.count-number').each(function () {
-        $(this).prop('Counter', 0).animate({
-            Counter: $(this).text()
-        }, {
-            duration: 900,
-            easing: 'swing',
-            step: function (now) {
-                $(this).text(Math.ceil(now));
-            }
-        });
 
-    });
     console.log("scrolltopWindow" + $(window).scrollTop());
     console.log("heightWindow" + $(window).height());
 
@@ -200,6 +189,18 @@ $(function () {
             console.log("2085");
             if (flag) {
                 console.log("tutaj animacja");
+                $('.count-number').each(function () {
+                    $(this).prop('Counter', 0).animate({
+                        Counter: $(this).text()
+                    }, {
+                        duration: 900,
+                        easing: 'swing',
+                        step: function (now) {
+                            $(this).text(Math.ceil(now));
+                        }
+                    });
+
+                });
                 flag = false;
             }
         }
