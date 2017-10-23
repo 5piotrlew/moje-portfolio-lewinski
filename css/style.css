@@ -1,5 +1,4 @@
 /* General styles - start */
-
 body {
     margin: 0;
     box-sizing: border-box;
@@ -9,11 +8,7 @@ body {
     transition: 2.5s opacity;
     font-family: 'Lato', sans-serif;
 }
-
-
-
 /* .fade-out - class for fade animation onload */
-
 body.fade-out {
     opacity: 0;
     transition: none;
@@ -23,21 +18,15 @@ h1 {
     font-weight: 300;
 }
 
-
-
 span {
     color: darkgoldenrod;
 }
 
-section {
-    
-    
+section {  
     padding-top: 5vh;
 }
 
-
 /* General styles - Stop */
-
 
 /*Menu navigation - Start*/
 
@@ -89,7 +78,6 @@ section {
 }
 /*Menu navigation - Stop*/
 
-
 /* Main-header - Start */
 
 header {
@@ -97,9 +85,7 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-
 /* Underline h1 - start */
-
 header h1::after {
     content: '';
     position: absolute;
@@ -117,12 +103,7 @@ header h1:hover::after {
     border-top-color: #a1700c;
     border-bottom-color: #ab760b;
 }
-
-
 /* underline h1 - stop */
-
-
-/* zmienic cover na contain przy 1505x927*/
 
 #main-header {
     background-image: url(../img/wallhaven-500970.jpg);
