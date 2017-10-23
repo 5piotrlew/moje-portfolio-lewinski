@@ -536,25 +536,12 @@ margin-right: 30%;
     -webkit-clip-path: polygon(0 0, 68% 0, 29% 99%, 0 99%);
     clip-path: polygon(0 0, 68% 0, 29% 99%, 0 99%);
     background-color: #eee;
-    height: 700px;
-    position: absolute;    
-}
-
-#my-projects .my-projects-description {
-    
     height: 700px;   
-    padding-left: 250px;
 }
 
-
-
-.my-projects-desc-header {
-    display: inline-block;
-    width: 400px;
-    padding-right: 150px;
-    color: #ab760b;
+#my-projects .my-projects-description {    
+    height: 700px;  
 }
-
 
 #my-projects .my-projects-description .items {
     color: black;
@@ -618,31 +605,31 @@ margin-right: 30%;
 
 
 
-#my-projects .my-projects-description .items.project-item-1{
+#my-projects .my-projects-description .project-item-1{
   margin-left: 36px;  
 }
-#my-projects .my-projects-description .items.project-item-2{
+#my-projects .my-projects-description .project-item-2{
     margin-left: 22px;
 }
-#my-projects .my-projects-description .items.project-item-3{
+#my-projects .my-projects-description .project-item-3{
     margin-left: 8px;
 }
-#my-projects .my-projects-description .items.project-item-4{
+#my-projects .my-projects-description .project-item-4{
     margin-left: -4px;
 }
-#my-projects .my-projects-description .items.project-item-5{
+#my-projects .my-projects-description .project-item-5{
     margin-left: -21px;
 }
-#my-projects .my-projects-description .items.project-item-6{
+#my-projects .my-projects-description .project-item-6{
     margin-left: -34px;
 }
-#my-projects .my-projects-description .items.project-item-7{
+#my-projects .my-projects-description .project-item-7{
     margin-left: -52px;
 }
-#my-projects .my-projects-description .items.project-item-8{
+#my-projects .my-projects-description .project-item-8{
     margin-left: -70px;
 }
-#my-projects .my-projects-description .items.project-item-9{
+#my-projects .my-projects-description .project-item-9{
     margin-left: -87px;
 }
 

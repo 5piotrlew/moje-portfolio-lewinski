@@ -151,6 +151,29 @@
     #my-projects .my-projects-description {
         
     }*/
+    #my-projects{
+        height: 1847px;
+    }
+    
+    #my-projects .my-projects-title {
+        -webkit-clip-path: none;
+        clip-path: none;
+        text-align: center;
+        height: 80px;
+        width: 100%;
+    }
+    
+    #my-projects .my-projects-description { 
+        margin-bottom: 284px; 
+        width: 100%;
+        
+}
+    #my-projects .my-projects-description .items{
+        margin-left: 0;
+    }
+    #my-projects .icons {
+        margin-left: -110px;
+    }
 }
 
 @media all and (max-width: 480px) {
