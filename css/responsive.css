@@ -12,6 +12,11 @@
     font-size: 1.6em;
     line-height: 1.6em;
 }
+    
+    #my-projects {
+        height: 100%;
+    }
+    
 }
  
 @media all and (max-width: 927px) {
@@ -133,6 +138,19 @@
     .contact-form {
         width: 100%;
     }
+    
+    /*#my-projects {
+        height: 1680px;
+    }
+    
+    #my-projects .my-projects-title {
+        clip-path: none;
+        -webkit-clip-path: none;
+        height: 80px;
+    }
+    #my-projects .my-projects-description {
+        
+    }*/
 }
 
 @media all and (max-width: 480px) {
