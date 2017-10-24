@@ -1,4 +1,5 @@
 /* General styles - start */
+
 body {
     margin: 0;
     box-sizing: border-box;
@@ -8,7 +9,9 @@ body {
     transition: 2.5s opacity;
     font-family: 'Lato', sans-serif;
 }
+
 /* .fade-out - class for fade animation onload */
+
 body.fade-out {
     opacity: 0;
     transition: none;
@@ -22,7 +25,7 @@ span {
     color: darkgoldenrod;
 }
 
-section {  
+section {
     padding-top: 5vh;
 }
 
@@ -70,12 +73,13 @@ section {
         margin-top: 10px;
     }
     50% {
-        margin-top: 0;        
+        margin-top: 0;
     }
     100% {
         margin-top: 10px;
     }
 }
+
 /*Menu navigation - Stop*/
 
 /* Main-header - Start */
@@ -86,6 +90,7 @@ header {
 }
 
 /* Underline h1 - start */
+
 header h1::after {
     content: '';
     position: absolute;
@@ -103,6 +108,7 @@ header h1:hover::after {
     border-top-color: #a1700c;
     border-bottom-color: #ab760b;
 }
+
 /* underline h1 - stop */
 
 #main-header {
@@ -138,7 +144,6 @@ header h1:hover::after {
 
 /* Main-header - Stop */
 
-
 /* Section about - Start */
 
 #about {
@@ -148,7 +153,7 @@ header h1:hover::after {
 }
 
 .image-programmer {
-    display: block; 
+    display: block;
     height: 65vh;
     perspective: 800px;
 }
@@ -163,11 +168,11 @@ header h1:hover::after {
     transition: 0.6s transform linear;
     backface-visibility: hidden;
     border: 10px solid #e0e0e0;
-    border-radius: 50px;    
+    border-radius: 50px;
 }
 
 .image-programmer .before {
-    font-size: 1.5em;    
+    font-size: 1.5em;
 }
 
 /* skills bar start*/
@@ -189,22 +194,22 @@ header h1:hover::after {
 .image-programmer .before .html {
     width: 0%;
     background-color: #ddd;
-    
+
 }
 
 .image-programmer .before .css {
     width: 0%;
-    background-color: #ddd;    
+    background-color: #ddd;
 }
 
 .image-programmer .before .js {
     width: 0%;
-    background-color: #ddd;    
+    background-color: #ddd;
 }
 
 .image-programmer .before .jquery {
     width: 0%;
-    background-color: #ddd;    
+    background-color: #ddd;
 }
 
 .image-programmer .before:hover .html {
@@ -230,8 +235,6 @@ header h1:hover::after {
 
 /* skills bar stop */
 
-
-
 .image-programmer .after {
     background: url('../img/IMG_9062.JPG');
     background-size: cover;
@@ -256,7 +259,7 @@ header h1:hover::after {
 }
 
 .programmer-description {
-    font-size: 1.8em;
+    font-size: 1.9em;
     font-weight: 100;
     line-height: 1.7em;
 }
@@ -264,13 +267,15 @@ header h1:hover::after {
 .programmer-description p {
     margin-bottom: 1.4em;
 }
+
 /* Section about - Stop */
 
 /* Section skills - Start */
 
 /* slider */
+
 #slider {
-    
+
     overflow: hidden;
     height: 88vh;
     position: relative;
@@ -330,51 +335,67 @@ header h1:hover::after {
 #skills #slider .slide-show .skills-item-6 {
     background-image: url(../img/ajax-logo.jpg);
 }
+
 #skills #slider .slide-show .skills-item-7 {
     background-image: url(../img/json.png);
 }
+
 #skills #slider .slide-show .skills-item-8 {
     background-image: url(../img/blue-group_responsive_design.png);
 }
+
 #skills #slider .slide-show .skills-item-9 {
     background-image: url(../img/sass-gulp-720x400.png);
 }
+
 #skills #slider .slide-show .skills-item-10 {
     background-image: url(../img/git.png);
 }
+
 #skills #slider .slide-show .skills-item-11 {
     background-image: url(../img/jira_logo_landing.png.png);
 }
+
 #skills #slider .slide-show .skills-item-12 {
     background-image: url(../img/comando-cmd.jpg);
 }
+
 #skills #slider .slide-show .skills-item-13 {
     background-image: url(../img/bash.png);
 }
+
 #skills #slider .slide-show .skills-item-14 {
     background-image: url(../img/linux-logo.png);
 }
+
 #skills #slider .slide-show .skills-item-15 {
     background-image: url(../img/windows-logo-wallpaper-25.jpg);
 }
+
 #skills #slider .slide-show .skills-item-16 {
     background-image: url(../img/confluence.png);
 }
+
 #skills #slider .slide-show .skills-item-17 {
     background-image: url(../img/zimbra.png);
 }
+
 #skills #slider .slide-show .skills-item-18 {
     background-image: url(../img/wordpress-logo.jpg);
 }
+
 #skills #slider .slide-show .skills-item-19 {
     background-image: url(../img/react.png);
 }
+
 #skills #slider .slide-show .skills-item-20 {
     background-image: url(../img/angular-logo.png);
 }
+
 #skills #slider .slide-show .skills-item-21 {
     background-image: url(../img/php.png);
 }
+
 #skills #slider .slide-show .skills-item-22 {
     background-image: url(../img/mysql-logo.jpg);
 }
@@ -394,7 +415,7 @@ header h1:hover::after {
 }
 
 #skills #slider .slide-show .single-slide .item-mask .item-content {
-    height: 79.5vh;    
+    height: 79.5vh;
     border: 5px solid #fff;
     margin: 10px;
     position: relative;
@@ -415,6 +436,7 @@ header h1:hover::after {
 /* section skills - stop */
 
 /* section experience - start */
+
 .grey-light-gb {
     background-color: #eee;
 }
@@ -449,79 +471,77 @@ header h1:hover::after {
 }
 
 .count-title-button {
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;  
-  text-align: center;
-  font-size: 28px;
-  padding: 10px;
-  width: 150px;
-  transition: all 0.5s;
-  cursor: pointer;
-  width: 40%;
-margin-left: 30%;
-margin-right: 30%;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 129px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .count-title-button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
     color: #FFFFFF;
 }
 
 .count-title-button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
 
 .count-title-button:hover span {
-  padding-right: 25px;
+    padding-right: 25px;
 }
 
 .count-title-button:hover span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
 
 /* section experience - stop */
 
-
 /* section my-projects */
 
 #my-projects {
- height: 900px;
+    height: 900px;
 }
 
 #my-projects .my-projects-title {
     -webkit-clip-path: polygon(0 0, 68% 0, 29% 99%, 0 99%);
     clip-path: polygon(0 0, 68% 0, 29% 99%, 0 99%);
     background-color: #eee;
-    height: 700px;   
+    height: 700px;
 }
 
-#my-projects .my-projects-description {    
-    height: 700px;  
+#my-projects .my-projects-description {
+    height: 700px;
 }
 
 #my-projects .my-projects-description .items {
     color: black;
     font-size: 1.33em;
     font-weight: 700;
-    margin-top: 25px;  
+    margin-top: 25px;
     font-style: italic;
     color: #ab760b;
-    transition: 0.3s all; 
+    transition: 0.3s all;
 }
 
-#my-projects .my-projects-description:hover .items {
-    
-}
+#my-projects .my-projects-description:hover .items {}
 
 .icons {
     height: 15px;
@@ -537,71 +557,86 @@ margin-right: 30%;
     font-weight: 700;
     font-size: 2em;
 }
+
 .icons a:hover {
     color: #426684;
 }
 
-.icons.icons-item-1{
+.icons.icons-item-1 {
     margin-left: -61px;
 }
-.icons.icons-item-2{
+
+.icons.icons-item-2 {
     margin-left: -77px;
 }
-.icons.icons-item-3{
+
+.icons.icons-item-3 {
     margin-left: -93px;
 }
-.icons.icons-item-4{
+
+.icons.icons-item-4 {
     margin-left: -109px;
 }
-.icons.icons-item-5{
+
+.icons.icons-item-5 {
     margin-left: -125px;
 }
-.icons.icons-item-6{
+
+.icons.icons-item-6 {
     margin-left: -141px;
 }
-.icons.icons-item-7{
+
+.icons.icons-item-7 {
     margin-left: -157px;
 }
-.icons.icons-item-8{
+
+.icons.icons-item-8 {
     margin-left: -173px;
 }
-.icons.icons-item-9{
+
+.icons.icons-item-9 {
     margin-left: -189px;
 }
 
 
 
-#my-projects .my-projects-description .project-item-1{
-  margin-left: 36px;  
+#my-projects .my-projects-description .project-item-1 {
+    margin-left: 36px;
 }
-#my-projects .my-projects-description .project-item-2{
+
+#my-projects .my-projects-description .project-item-2 {
     margin-left: 22px;
 }
-#my-projects .my-projects-description .project-item-3{
+
+#my-projects .my-projects-description .project-item-3 {
     margin-left: 8px;
 }
-#my-projects .my-projects-description .project-item-4{
+
+#my-projects .my-projects-description .project-item-4 {
     margin-left: -4px;
 }
-#my-projects .my-projects-description .project-item-5{
+
+#my-projects .my-projects-description .project-item-5 {
     margin-left: -21px;
 }
-#my-projects .my-projects-description .project-item-6{
+
+#my-projects .my-projects-description .project-item-6 {
     margin-left: -34px;
 }
-#my-projects .my-projects-description .project-item-7{
+
+#my-projects .my-projects-description .project-item-7 {
     margin-left: -52px;
 }
-#my-projects .my-projects-description .project-item-8{
+
+#my-projects .my-projects-description .project-item-8 {
     margin-left: -70px;
 }
-#my-projects .my-projects-description .project-item-9{
+
+#my-projects .my-projects-description .project-item-9 {
     margin-left: -87px;
 }
 
 /* section my-projects */
-
-
 
 /*Contact section - Start*/
 
@@ -632,7 +667,7 @@ margin-right: 30%;
     line-height: 38px;
     text-align: center;
     margin-right: 30px;
-    font-size: 22px;    
+    font-size: 22px;
 }
 
 #contact .contact-data .contact-social-icons a:hover {
@@ -678,6 +713,3 @@ margin-right: 30%;
 }
 
 /*Contact section - Stop*/
-
-
-

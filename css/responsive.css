@@ -1,12 +1,12 @@
 @media all and (max-width: 1400px) {
     .programmer-description {
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
 }
 
 @media all and (max-width: 1200px) {
     .programmer-description {
-        font-size: 1.3em;
+        font-size: 1.6em;
     }
       #skills #slider .slide-show .single-slide .item-mask .item-content .item-content-inner {
     font-size: 1.6em;
@@ -33,7 +33,7 @@
 
     .programmer-description {
         padding-top: 10px;
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
     #slider {
         height: 68vh;
@@ -41,6 +41,7 @@
     #skills #slider .slide-show .single-slide .item-mask .item-content {
         height: 87%;
     }
+    
 }
 
 @media all and (max-width: 768px) {
