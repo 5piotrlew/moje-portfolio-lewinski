@@ -144,7 +144,7 @@ header h1:hover::after {
 
 /* Main-header - Stop */
 
-/* Section about - Start */
+/* Section About - Start */
 
 #about {
     background-color: #e0e0e0;
@@ -175,7 +175,7 @@ header h1:hover::after {
     font-size: 1.5em;
 }
 
-/* skills bar start*/
+/* Skills Bar Start*/
 
 .image-programmer .before .bar-skills {
     width: 100%;
@@ -231,9 +231,7 @@ header h1:hover::after {
     width: 65%;
     background-color: #808080;
 }
-
-
-/* skills bar stop */
+/* Skills Bar Stop */
 
 .image-programmer .after {
     background: url('../img/IMG_9062.JPG');
@@ -268,11 +266,11 @@ header h1:hover::after {
     margin-bottom: 1.4em;
 }
 
-/* Section about - Stop */
+/* Section About - Stop */
 
-/* Section skills - Start */
+/* Section Skills - Start */
 
-/* slider */
+/* SLIDER */
 
 #slider {
 
@@ -433,9 +431,9 @@ header h1:hover::after {
     line-height: 2em;
 }
 
-/* section skills - stop */
+/* Section Skills - Stop */
 
-/* section experience - start */
+/* Section Experience - Start */
 
 .grey-light-gb {
     background-color: #eee;
@@ -512,9 +510,9 @@ header h1:hover::after {
     right: 0;
 }
 
-/* section experience - stop */
+/* Section Experience - Stop */
 
-/* section my-projects */
+/* Section my-projects - Start */
 
 #my-projects {
     height: 900px;
@@ -636,7 +634,7 @@ header h1:hover::after {
     margin-left: -87px;
 }
 
-/* section my-projects */
+/* Section my-projects - Stop */
 
 /*Contact section - Start*/
 
