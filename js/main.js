@@ -49,7 +49,7 @@ $(function () {
                 $('.skills').html('0');
             }, 200);
         });
-    /* Section ABOUT - Sop (PICTURE) */
+    /* Section ABOUT - Stop (PICTURE) */
 
     /* Section About - PICTURE DESCRIPTION - Start*/
     var rowOne = document.getElementById("row-nr-1").textContent;
