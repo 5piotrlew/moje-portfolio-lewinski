@@ -1,7 +1,14 @@
 'use strict';
 
 $(function () {
-    //Scroll to
+
+    /* GENERAL opacity efect*/
+    document.body.className += " fade-out";
+
+    setTimeout(function () {
+        document.querySelector('body').classList.remove('fade-out');
+    }, 1);
+    //Scroll to 
     $('a[href^="#"]').on('click', function (event) {
         var target = $(this.getAttribute('href'));
 
@@ -13,70 +20,7 @@ $(function () {
         }
     });
 
-
-    /* slider - start */
-    /*variables*/
-    var slideCount = $('.single-slide').length;
-    var slideShow = $('.slide-show');
-
-    var slideWidth = 100 / slideCount;
-    var slideIndex = 0;
-    /*div width is equal to slides length*/
-    slideShow.css('width', slideCount * 100 + '%');
-    /*width and position of each slide - margins*/
-    $('.single-slide').each(function (index) {
-        $(this).css({
-            'width': slideWidth + '%',
-            'margin-left': index * slideWidth + '%'
-        });
-    });
-
-    function slide(newSlideIndex) {
-        if (newSlideIndex < 0 || newSlideIndex >= slideCount) {
-            return;
-        }
-        var marginLeft = (newSlideIndex * (-100)) + '%';
-        slideShow.animate({
-            'margin-left': marginLeft
-        }, 1000, function () {
-            slideIndex = newSlideIndex;
-        });
-    }
-
-
-    slideIndex = 0;
-
-    function carousel() {
-        slideIndex++;
-        slide(slideIndex);
-        if (slideIndex >= (slideCount - 1) || slideIndex < 0) {
-            slideIndex = -1;
-        };
-    };
-    //setInterval(carousel, 5000);
-
-    //
-
-    $(function () {
-        var timerId = setInterval(carousel, 5000);
-
-        $('.slide-show').mouseenter(function () {
-            clearInterval(timerId);
-        });
-
-        $('.slide-show').mouseleave(function () {
-            timerId = setInterval(carousel, 5000);
-        });
-    });
-    //
-
-
-    /*section experience - counter*/
-
-
-
-
-    /*counter - section about */
+    /* Section ABOUT - Start (PICTURE) */
     $('.before').mouseenter(
         function () {
             $('.html').html('90');
@@ -105,16 +49,9 @@ $(function () {
                 $('.skills').html('0');
             }, 200);
         });
+    /* Section ABOUT - Sop (PICTURE) */
 
-    document.body.className += " fade-out";
-
-    setTimeout(function () {
-        document.querySelector('body').classList.remove('fade-out');
-    }, 1);
-
-
-    /* typing effect - start - section about */
-
+    /* Section About - PICTURE DESCRIPTION - Start*/
     var rowOne = document.getElementById("row-nr-1").textContent;
     var rowOneZ = document.getElementById("row-nr-1");
     rowOneZ.innerHTML = " ";
@@ -153,13 +90,69 @@ $(function () {
     }
 
     typeWriter();
+    /* Section ABOUT - Stop */
 
-    /* buttons - on click show/hide projects and courses */
-    var projekty = 1;
+    /* Section SKILLS - Start */
+    /* SLIDER - Start */
+    var slideCount = $('.single-slide').length;
+    var slideShow = $('.slide-show');
+
+    var slideWidth = 100 / slideCount;
+    var slideIndex = 0;
+    /*div width is equal to length slides*/
+    slideShow.css('width', slideCount * 100 + '%');
+    /*width and position of each slide - margins*/
+    $('.single-slide').each(function (index) {
+        $(this).css({
+            'width': slideWidth + '%',
+            'margin-left': index * slideWidth + '%'
+        });
+    });
+
+    function slide(newSlideIndex) {
+        if (newSlideIndex < 0 || newSlideIndex >= slideCount) {
+            return;
+        }
+        var marginLeft = (newSlideIndex * (-100)) + '%';
+        slideShow.animate({
+            'margin-left': marginLeft
+        }, 1000, function () {
+            slideIndex = newSlideIndex;
+        });
+    }
+
+
+    slideIndex = 0;
+    // Automatically moving slider
+    function carousel() {
+        slideIndex++;
+        slide(slideIndex);
+        if (slideIndex >= (slideCount - 1) || slideIndex < 0) {
+            slideIndex = -1;
+        };
+    };
+
+    /* Mouseenter - stop moving slider else start */
+    $(function () {
+        var timerId = setInterval(carousel, 5000);
+
+        $('.slide-show').mouseenter(function () {
+            clearInterval(timerId);
+        });
+
+        $('.slide-show').mouseleave(function () {
+            timerId = setInterval(carousel, 5000);
+        });
+    });
+    /*Section SKILLS - Stop*/
+
+    /*Section EXPERIENCE - Start*/
+    /* Buttons - on click show/hide projects and courses */
+    var showHide = 1;
     $('#my-projects').hide("slow");
     $('.count-title-button').click(function () {
-        projekty++;
-        if (projekty % 2 == 0) {
+        showHide++;
+        if (showHide % 2 == 0) {
             $('#my-projects').show("slow");
             $('.count-title-button').text('Ukryj').css({
                 'color': '#eee'
@@ -172,13 +165,9 @@ $(function () {
         }
 
     });
-    // script run fucntion after delay
+    /*Section EXPERIENCE - Stop*/
 
-
-
-
-
-
+    /*Section Expierience - ANIMATION COUNTER - Start */
     console.log("scrolltopWindow" + $(window).scrollTop());
     console.log("heightWindow" + $(window).height());
 
@@ -205,32 +194,5 @@ $(function () {
             }
         }
     });
-
-    /*if ($(window).scrollTop() >= 50) {
-            $('#main-nav').addClass('scroll');
-         
-        } 
-    
-$("a[href*='#']").click(function(){
-   $('body').animate({
-      scrollTop: $(this.hash).offset().top - 50 }, 500 
-   ); 
-});
-    
-    $(window).scroll(function () {
-        if ($(window).scrollTop() + $(window).height() > $(window).height() ) {
-            
-           
-            console.log($(window).scrollTop()+"scrolltop()");
-            console.log($(window).height()+"windows height");
-            console.log("if spelniony");
-        } else {
-            
-            console.log("if niespoelniony");
-        }
-    })*/
-
-
-
-
+    /*Section EXPERIENCE - ANIMATION COUNTER - Stop*/
 });
