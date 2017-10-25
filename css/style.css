@@ -147,8 +147,7 @@ header h1:hover::after {
 /* Section About - Start */
 
 #about {
-    background-color: #e0e0e0;
-    height: 78vh;
+    background-color: #e0e0e0;    
     margin-bottom: 10vh;
 }
 

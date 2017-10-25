@@ -8,29 +8,27 @@
     .programmer-description {
         font-size: 1.6em;
     }
-      #skills #slider .slide-show .single-slide .item-mask .item-content .item-content-inner {
-    font-size: 1.6em;
-    line-height: 1.6em;
-}
-    
+
+    .image-programmer .after {
+        background-position: calc(79%);
+    }
+    #skills #slider .slide-show .single-slide .item-mask .item-content .item-content-inner {
+        font-size: 1.6em;
+        line-height: 1.6em;
+    }
+
     #my-projects {
         height: 100%;
     }
-    
+
 }
- 
+
 @media all and (max-width: 927px) {
-  
-    
-    
     #main-header {
         height: 87vh;
         background-color: rgba(244, 231, 231, 0.9);
     }
-    #about {
-        height: 62vh;
-    }
-
+   
     .programmer-description {
         padding-top: 10px;
         font-size: 1.3em;
@@ -41,15 +39,13 @@
     #skills #slider .slide-show .single-slide .item-mask .item-content {
         height: 87%;
     }
-    
 }
 
 @media all and (max-width: 768px) {
-     #skills #slider .slide-show .single-slide .item-mask .item-content .item-content-inner {
-    font-size: 1.2em;
-    line-height: 1.5em;
-}
-    
+    #skills #slider .slide-show .single-slide .item-mask .item-content .item-content-inner {
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
     #main-header {
         height: 75vh;
     }
@@ -57,9 +53,7 @@
         width: 0;
         float: none;
     }
-    #about {
-        height: 129vh;
-    }
+   
     .programmer-description {
         margin-top: 10vh;
         font-size: 1.3em;
@@ -116,10 +110,7 @@
         margin-top: -70px;
         padding-top: 0;
     }
-    #about {
-        height: 122vh;
-    }
-  
+   
     #skills #slider {
         height: 55vh;
     }
@@ -139,23 +130,11 @@
     .contact-form {
         width: 100%;
     }
-    
-    /*#my-projects {
-        height: 1680px;
-    }
-    
-    #my-projects .my-projects-title {
-        clip-path: none;
-        -webkit-clip-path: none;
-        height: 80px;
-    }
-    #my-projects .my-projects-description {
-        
-    }*/
-    #my-projects{
+
+    #my-projects {
         height: 1847px;
     }
-    
+
     #my-projects .my-projects-title {
         -webkit-clip-path: none;
         clip-path: none;
@@ -163,13 +142,12 @@
         height: 80px;
         width: 100%;
     }
-    
-    #my-projects .my-projects-description { 
-        margin-bottom: 284px; 
+
+    #my-projects .my-projects-description {
+        margin-bottom: 284px;
         width: 100%;
-        
-}
-    #my-projects .my-projects-description .items{
+    }
+    #my-projects .my-projects-description .items {
         margin-left: 0;
     }
     #my-projects .icons {
@@ -196,11 +174,7 @@
     }
     .programmer-description {
         margin-top: 20px;
-    }
-    #about {
-        height: 149vh;
-        margin-bottom: 0;
-    }
+    }    
     #skills #slider {
         height: 32vh;
     }
@@ -221,6 +195,4 @@
     #slider .slide-show {
         height: 20vh;
     }
-
-
 }
