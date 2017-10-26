@@ -512,10 +512,6 @@ header h1:hover::after {
 
 /* Section my-projects - Start */
 
-#my-projects {
-    height: 900px;
-}
-
 #my-projects .my-projects-title {
     -webkit-clip-path: polygon(0 0, 68% 0, 29% 99%, 0 99%);
     clip-path: polygon(0 0, 68% 0, 29% 99%, 0 99%);
@@ -524,7 +520,7 @@ header h1:hover::after {
 }
 
 #my-projects .my-projects-description {
-    height: 700px;
+    height: 900px;
 }
 
 #my-projects .my-projects-description .items {
